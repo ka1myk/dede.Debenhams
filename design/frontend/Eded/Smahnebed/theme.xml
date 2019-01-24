@@ -1,0 +1,4 @@
+<theme xmlns:xsi="//www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+ <title>Smahnebed</title>
+ <parent>Magento/luma</parent>
+</theme>

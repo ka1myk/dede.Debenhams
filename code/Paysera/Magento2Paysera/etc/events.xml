@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @copyright Copyright (c) 2015 X.commerce, Inc. (http://www.magentocommerce.com)
+*/
+-->
+<config>
+    <event name="payment_method_assign_data_paysera">
+        <observer name="paysera_gateway_data_assign" instance="Paysera\Magento2Paysera\Observer\DataAssignObserver"/>
+    </event>
+</config>

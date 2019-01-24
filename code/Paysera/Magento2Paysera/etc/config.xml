@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <paysera>
+                <active>1</active>
+                <projectid backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                <sign_password backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+                <test>1</test>
+                <paysera_extra>
+                    <title>Paysera</title>
+                    <description>Pay over Paysera system</description>
+                    <allowspecific>0</allowspecific>
+                    <specificcountry></specificcountry>
+                    <payment_list>1</payment_list>
+                    <grid>1</grid>
+                </paysera_extra>
+                <paysera_order_status>
+                    <new_order_status>pending</new_order_status>
+                    <order_status>pending</order_status>
+                    <canceled_order_status>pending</canceled_order_status>
+                </paysera_order_status>
+                <model>Paysera\Magento2Paysera\Model\Paysera</model>
+                <instructions>Instruction.</instructions>
+                <payment_action>true</payment_action>
+                <group>offline</group>
+            </paysera>
+        </payment>
+    </default>
+</config>

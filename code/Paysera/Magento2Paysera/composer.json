@@ -1,0 +1,23 @@
+{
+  "name": "payserauk/magento2-paysera-module",
+  "description": "Paysera Payments module for Magento 2",
+  "require": {
+    "webtopay/libwebtopay": "1.6.*"
+  },
+  "type": "magento2-module",
+  "version": "3.0.2",
+  "license": [
+    "GPL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Paysera\\Magento2Paysera\\": ""
+    }
+  }
+}
+
+
+

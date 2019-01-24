@@ -1,0 +1,54 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var \Magento\Customer\Block\Account\Dashboard\Info $block */
+?>
+<div class="body" id="WC_MyAccountDisplay_div_13">
+<h2><?= $block->escapeHtml($block->getName()) ?></h2>
+<div class="content" id="WC_MyAccountCenterLinkDisplay_div_5">
+	<form>
+	<div id="WC_MyAccountCenterLinkDisplay_div_6">
+		<div class="info_table">				
+			<div class="form-row">
+				<div class="info-label">Email address</div>			
+						<div class="info-content"><?= $block->escapeHtml($block->getCustomer()->getEmail()) ?></div>	
+							
+			</div>						
+			<div class="form-row">
+				<div class="info-label">Date of birth</div>
+				<div class="info-content"><?= $block->escapeHtml($block->getCustomer()->getDob()) ?></div>		
+			</div>
+				
+			<div class="form-row">
+				<div class="info-label">Communication preferences</div>
+				<div class="info-content" style="width: calc(100% - 170px)">
+					<?php if ($block->getIsSubscribed()): ?>
+                            <?= $block->escapeHtml(__('Yes, please send me marketing communications')) ?>
+                        <?php else: ?>
+                            <?= $block->escapeHtml(__('You aren\'t subscribed to our newsletter.')) ?>
+                        <?php endif; ?>
+				</div>		
+			</div>						
+		
+		</div>
+        <div class="form-row button-group">
+        	<div class="left">
+
+                <a class="action edit" href="<?= $block->escapeUrl($block->getUrl('newsletter/manage')) ?>"><span><?= $block->escapeHtml(__('Edit communication preferences')) ?></span></a>
+                
+                </div>
+			<div class="right">
+                 <a href="<?= $block->escapeUrl($block->getChangePasswordUrl()) ?>" class="action change-password">
+                    <?= $block->escapeHtml(__('Change Password')) ?>
+                </a>
+          	</div>
+        </div>		
+	</div>
+	</form>
+</div>
+</div>

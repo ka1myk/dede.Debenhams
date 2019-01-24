@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page>
+    <body>
+	
+		<block class="Harrigo\EverCrumbs\Block\Evercrumbs" name="evercrumbs" as="evercrumbs" template="Harrigo_EverCrumbs::evercrumbs.phtml" />
+	
+	    <referenceBlock name="breadcrumbs" remove="true" />
+	   <referenceContainer name="page.top">
+		<block class="Harrigo\EverCrumbs\Block\Evercrumbs" name="evercrumbsParent" as="evercrumbParent" template="Harrigo_EverCrumbs::evercrumbsParent.phtml" />
+	   </referenceContainer>
+	   
+	   
+    </body>
+</page>

@@ -1,0 +1,84 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var \Magento\Newsletter\Block\Subscribe $block */
+
+?>
+<div class="block newsletter">
+    <div class="title">
+		<strong><?= $block->escapeHtml(__('Subscribe to our newsletter')) ?>
+		</strong>
+		<p><?= $block->escapeHtml(__('Receive the latest offers & promotions')) ?></p>
+	</div>
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="<?= $block->escapeUrl($block->getFormActionUrl()) ?>"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <label class="label" for="newsletter"><span><?= $block->escapeHtml(__('Sign Up for Our Newsletter:')) ?></span></label>
+                <div class="control">
+                    <input name="email" type="email" id="newsletter"
+                                placeholder="<?= $block->escapeHtml(__('Enter email address..')) ?>"
+                                data-validate="{required:true, 'validate-email':true}"/>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe primary" title="<?= $block->escapeHtmlAttr(__('Subscribe')) ?>" type="submit">
+                    <span><?= $block->escapeHtml(__('Subscribe')) ?></span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+                        <div class="social-media">
+                            <div class="social-message">Follow us on</div>
+                            <div class="links-container">
+                                <a class="sm-link" href="http://www.facebook.com/Debenhams" title="Follow us on Facebook" target="_blank">
+                                   <span class="fb"></span>
+                                </a>
+                                <a class="sm-link" href="http://twitter.com/Debenhams" title="Follow us on Twitter" target="_blank">
+                                    <span class="twitt"></span>
+                                </a>
+                                <a class="sm-link" href="http://www.youtube.com/user/DebenhamsRetail" title="Follow us on YouTube" target="_blank">
+                                    <span class="you"></span>
+                                </a>
+                            </div>
+                        </div>
+<div class="links-section">
+                        <ul class="flexParent">
+                            <li class="dropdown columnOne">
+                                <input type="checkbox" />
+                                    <a href="#" data-toggle="dropdown" class="header-text">Customer Service</a>
+                                    <ul class="dropdown-menu">
+									<li><a href="/wcsstore/DebenhamsUKSite/faq/home.html" target="_blank">Track order &amp; returns</a></li>
+									<li><a href="/wcsstore/DebenhamsUKSite/faq/returns_exchanges_and_refunds/returns.html" target="_blank">Returns, Exchanges &amp; Refunds</a></li>
+									<li><a href="/wcsstore/DebenhamsUKSite/faq/delivery_and_collection_information/home_delivery.html" target="_blank">Delivery &amp; Collections</a></li>
+									<li><a href="/wcsstore/DebenhamsUKSite/faq/contact_us.html" target="_blank">Get in touch</a></li>
+									<li><a href="/privatuma-politika" target="_blank">Privatuma politika</a></li>
+									<li><a href="/preces-atgriesana" target="_blank">Preces atgriesana</a></li>
+									<li><a href="/kontakti" target="_blank">Kontakti</a></li>
+									<li><a href="/precu-piegade" target="_blank">Precu piegade</a></li>
+                                    </ul>
+                                </li>
+                            
+                            <li class="dropdown columnTwo">
+                                <input type="checkbox" />
+                                    <a href="#" data-toggle="dropdown" class="header-text">About us</a>
+                                    <ul class="dropdown-menu">
+									<li><a href="https://ir.debenhams.com" target="_blank">Debenhams corporate</a></li>
+									<li><a href="http://www.debenhams-careers.com/" target="_blank">Careers</a></li>
+                                    </ul>
+							</li>
+
+ </ul>
+</div>
+
+
