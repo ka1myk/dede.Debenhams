@@ -76,15 +76,17 @@ define([
                             ////////////accordion
 				
 							$(document).ready(function() {
-							 //прикрепляем клик по заголовкам acc-head
+							 //прикрепляем клик по заголовкам .btn-name
 							$('.btn-name').on('click', f_acc);
 							});
 
 							function f_acc(){
+							  $('.btn-content').addClass{'visible-item'};
 							//скрываем все кроме того, что должны открыть
 							  $('.btn-content').not($(this).next()).slideUp(300);
 							// открываем или скрываем блок под заголовком, по которому кликнули
-								$(this).next().slideToggle(500);
+							  $(this).next().slideToggle(500);
+								
 							}
 							
 							
