@@ -20,11 +20,12 @@
 		<move element="ajCr4yQE26KIzG7hWpzV8KUYtHJ4eonp" 			destination="for-shopmore" before="-"/>
 		
         <referenceContainer name="main">
-			<container name="for-accordion" as="for-accordion" label="Page Custom Content" htmlTag="div" htmlClass="for-accordion">
-        		<block class="Magento\Framework\View\Element\Template" name="for-accordion-block"/>
-        	</container>
+			
 			<container name="for-shopmore" as="for-shopmore" label="Page Custom Content" htmlTag="div" htmlClass="for-shopmore">
         		<block class="Magento\Framework\View\Element\Template" name="for-shopmore-block"/>
+        	</container>
+			<container name="for-accordion" as="for-accordion" label="Page Custom Content" htmlTag="div" htmlClass="for-accordion">
+        		<block class="Magento\Framework\View\Element\Template" name="for-accordion-block"/>
         	</container>
 			<container name="for-desc" as="for-desc" label="Page Custom Content" htmlTag="div" htmlClass="for-desc">
         		<block class="Magento\Framework\View\Element\Template" name="for-desc-block"/>
