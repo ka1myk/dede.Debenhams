@@ -82,6 +82,8 @@ define([
 
 							function f_acc(){
 							 
+								$('.btn-name').not(this).removeClass('minus-icon');
+								$(this).addClass('minus-icon');
 							//скрываем все кроме того, что должны открыть
 							  $('.btn-content').not($(this).next()).slideUp(300);
 							// открываем или скрываем блок под заголовком, по которому кликнули
@@ -90,15 +92,26 @@ define([
 							}
 							
 							
-							$(document).ready(function() {
-							 //прикрепляем клик по заголовкам .btn-name
-							$('.btn-name').on('click', add_class);
-							});
+//							$(document).ready(function() {
+//							 //прикрепляем клик по заголовкам .btn-name
+//							$('.btn-name').on('click', add_class);
+//							});
+//
+//							function add_class(){
+//								$('.btn-name').not($(this)).removeClass('minus-icon'));
+//								$(this).addClass('minus-icon');
+//							} 
+//				
+						
+							 //прикрепляем клик по заголовкам .btn-name.minus-icon
+//							$('.btn-name.minus-icon').click(function(){
+//									setTimeout(function(){
+//										$(this).removeClass('minus-icon');
+//									},100);
+//								
+//							});
+							
 
-							function add_class(){
-								$('.btn-name').not($(this).removeClass('minus-icon'));
-								$(this).addClass('minus-icon');
-							}
 				
 				
 				
