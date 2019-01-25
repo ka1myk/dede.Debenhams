@@ -136,6 +136,8 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Mageplaza_Core' => 1,
         'Mageplaza_DeleteOrders' => 1,
+        'Mageplaza_GeoIP' => 1,
+        'Mageplaza_SocialLogin' => 1,
         'Mageplaza_Webhook' => 1,
         'ManishJoy_Core' => 1,
         'ManishJoy_AjaxCart' => 1,
