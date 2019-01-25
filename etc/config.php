@@ -139,7 +139,7 @@ return [
         'Mageplaza_GeoIP' => 1,
         'Mageplaza_SocialLogin' => 1,
         'Mageplaza_Webhook' => 1,
-        'ManishJoy_Core' => 1,
+        'ManishJoy_Core' => 0,
         'ManishJoy_AjaxCart' => 0,
         'Markup_Smartship' => 1,
         'Paysera_Magento2Paysera' => 1,
