@@ -91,6 +91,8 @@ define([
 								
 							}
 							
+	
+				
 							
 //							$(document).ready(function() {
 //							 //прикрепляем клик по заголовкам .btn-name
