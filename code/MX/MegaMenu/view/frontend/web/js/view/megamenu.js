@@ -91,7 +91,7 @@ define([
 								
 							}
 							
-	
+							
 				
 							
 //							$(document).ready(function() {
@@ -128,7 +128,14 @@ define([
 //									btnName.removeClass('plus-icon');
 //									}
 								
+							$(document).ready(function() {
 								
+								var emptyReviews = $('.product-reviews-summary.empty').length;
+								var reviewsWrap = $('.product.info.detailed').addClass('empty-style');
+								if (emptyReviews){
+									reviewsWrap;
+								}
+							});	
 								
 							
 											 
