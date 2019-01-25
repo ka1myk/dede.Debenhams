@@ -6,6 +6,7 @@ return [
         'Magento_Eav' => 1,
         'Magento_Theme' => 1,
         'Dede_WishList' => 1,
+        'Dede_allScriptsDebenhams' => 1,
         'Magento_Cms' => 1,
         'Harrigo_EverCrumbs' => 1,
         'Ho_Templatehints' => 1,
