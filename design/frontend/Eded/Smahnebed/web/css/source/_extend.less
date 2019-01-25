@@ -915,18 +915,19 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .btn-content .product.attribute.description .value ul li{margin: 0; line-height: 1.7em}
 
 
-.for-desc .pdp-container.delivery-details-container .delivery-option, .pdp-container.delivery-details-container .espot-container .text{position: relative; box-sizing: border-box; padding-left: 28px}
+.for-desc .pdp-container.delivery-details-container .delivery-option, .pdp-container.delivery-details-container .espot-container .text{position: relative; box-sizing: border-box; padding-left: 35px}
 .for-desc .pdp-container.delivery-details-container .delivery-option{margin-bottom: 35px}
-.for-desc .pdp-container.delivery-details-container .delivery-option .delivery-sub-option{margin-bottom: 15px; position: relative}
-.for-desc .pdp-container.delivery-details-container .delivery-option .delivery-sub-option{}
-.for-desc .pdp-container.delivery-details-container .delivery-option .header{position: relative}
+.for-desc .pdp-container.delivery-details-container .delivery-option .delivery-sub-option{margin-bottom: 15px; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-justify-content: space-between}
+.for-desc .pdp-container.delivery-details-container .delivery-option .delivery-sub-option div{width: 50%}
+.for-desc .pdp-container.delivery-details-container .delivery-option .delivery-sub-option .delivery-sub-option-price{text-align: right}
+.for-desc .pdp-container.delivery-details-container .delivery-option .header{position: relative; padding-bottom: 15px}
 .for-desc .pdp-container.delivery-details-container h3, .pdp-container.delivery-details-container .espot-container h2{font-size: 16px; font-weight: 700;position: relative}
-.for-desc .pdp-container.delivery-details-container .header:before, .pdp-container.delivery-details-container .espot-container h2:before{content: ''; display:block; position: absolute;width: 22px; height: 22px; left: -28px; top: 0; bottom: 0; margin: auto; background-repeat: no-repeat; background-position: bottom; background-size: cover}
+.for-desc .pdp-container.delivery-details-container .header:before, .pdp-container.delivery-details-container .espot-container h2:before{content: ''; display:block; position: absolute;width: 22px; height: 22px; left: -35px; top: 0; bottom: 0; margin: auto; background-repeat: no-repeat; background-position: bottom; background-size: cover}
 .for-desc .delivery-option.home .header:before{background-image: url(../images/home-delivery.svg)}
 .for-desc .delivery-option.collect .header:before{background-image: url(../images/click-collect.svg)}
 .pdp-container.delivery-details-container .espot-container h2:before{background-image: url(../images/free-returns.svg)}
 .pdp-container.delivery-details-container .delivery-option-more-info{position: absolute; right: 0; top: 0}
-.pdp-container.delivery-details-container .delivery-option-more-info{color: black; text-decoration: underline}
+.pdp-container.delivery-details-container .delivery-option-more-info a.more-details-link{color: black; text-decoration: underline}
 .pdp-container.delivery-details-container{padding-top: 10px}
 
 @media only screen and (min-width: 370px){
