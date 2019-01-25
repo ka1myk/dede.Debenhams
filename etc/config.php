@@ -89,7 +89,7 @@ return [
         'Magento_Persistent' => 1,
         'Magento_Reports' => 1,
         'Magento_ProductVideo' => 1,
-        'Magento_Captcha' => 0,
+        'Magento_Captcha' => 1,
         'Magento_QuoteAnalytics' => 1,
         'Magento_ReleaseNotification' => 1,
         'Magento_Review' => 1,
