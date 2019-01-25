@@ -925,11 +925,14 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .for-desc .pdp-container.delivery-details-container .header:before, .pdp-container.delivery-details-container .espot-container h2:before{content: ''; display:block; position: absolute;width: 22px; height: 22px; left: -35px; top: 0; bottom: 0; margin: auto; background-repeat: no-repeat; background-position: bottom; background-size: cover}
 .for-desc .delivery-option.home .header:before{background-image: url(../images/home-delivery.svg)}
 .for-desc .delivery-option.collect .header:before{background-image: url(../images/click-collect.svg)}
-.pdp-container.delivery-details-container .espot-container h2:before{background-image: url(../images/free-returns.svg)}
+.pdp-container.delivery-details-container .espot-container h2:before{background-image: url(../images/free-returns.svg); bottom: auto}
 .pdp-container.delivery-details-container .delivery-option-more-info{position: absolute; right: 0; top: 0}
 .pdp-container.delivery-details-container .delivery-option-more-info a.more-details-link{color: black; text-decoration: underline}
 .pdp-container.delivery-details-container{padding-top: 10px}
-.pdp-container.delivery-details-container .espot-container .deb-pdp-espots{padding: 20px; box-sizing: border-box}
+.pdp-container.delivery-details-container .espot-container .deb-pdp-espots{padding: 20px; box-sizing: border-box;-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.1);box-shadow: 0 0 10px 0 rgba(0,0,0,.1);}
+.returns-espot.genericESpot{padding: 0 15px}
+.pdp-container.delivery-details-container .espot-container h2{padding-bottom: 15px}
+.pdp-container.delivery-details-container .espot-container .deb-vmore a{padding-top: 15px; text-decoration: underline; color: black}
 
 @media only screen and (min-width: 370px){
 	.logo img{width:107px; height: auto}
