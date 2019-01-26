@@ -85,15 +85,16 @@ define([
 							 
 								function f_acc(){
 							 
-								$('.btn-name').not(this).removeClass('minus-icon');
-								$(this).toggleClass('minus-icon');
+								
 								
 								
 								
 							//скрываем все кроме того, что должны открыть
-							if ($(window).width() < 740){		
-							  $('.btn-content').not($(this).next()).slideUp(300);
-							  $(this).next().slideToggle(500);
+							if ($(window).width() < 740){	
+								$('.btn-name').not(this).removeClass('minus-icon');
+								$(this).toggleClass('minus-icon');	
+							    $('.btn-content').not($(this).next()).slideUp(300);
+							    $(this).next().slideToggle(500);
 								}
 							 else {
 								$('.btn-content').not($(this).next()).stop(true,true) ;
