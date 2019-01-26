@@ -82,15 +82,19 @@ define([
 								}
 							});
 							
-							function f_acc(){
+							if($(window).width() < 740){ 
+								function f_acc(){
 							 
 								$('.btn-name').not(this).removeClass('minus-icon');
 								$(this).toggleClass('minus-icon');
+								
+								
+								
 							//скрываем все кроме того, что должны открыть
 							  $('.btn-content').not($(this).next()).slideUp(300);
 							// открываем или скрываем блок под заголовком, по которому кликнули
 							  $(this).next().slideToggle(500);
-								
+								}
 							}
 							
 							
