@@ -77,9 +77,14 @@ define([
 				
 							$(document).ready(function() {
 							 //прикрепляем клик по заголовкам .btn-name
+							
+								
 							$('.btn-name').on('click', f_acc);
 							});
 
+				
+							if	($(window).width() < 740){			
+				
 							function f_acc(){
 							 
 								$('.btn-name').not(this).removeClass('minus-icon');
@@ -91,7 +96,7 @@ define([
 								
 							}
 							
-							
+							}
 				
 						
 								
