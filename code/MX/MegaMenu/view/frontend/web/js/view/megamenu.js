@@ -82,7 +82,7 @@ define([
 								}
 							});
 							
-							if($(window).width() < 740){ 
+							 
 								function f_acc(){
 							 
 								$('.btn-name').not(this).removeClass('minus-icon');
@@ -91,11 +91,15 @@ define([
 								
 								
 							//скрываем все кроме того, что должны открыть
+							if ($(window).width()< 740){		
 							  $('.btn-content').not($(this).next()).slideUp(300);
+								} else {
+									('.btn-content').not($(this).next()).stop().slideUp();
+								}
 							// открываем или скрываем блок под заголовком, по которому кликнули
 							  $(this).next().slideToggle(500);
 								}
-							}
+							
 							
 							
 				
