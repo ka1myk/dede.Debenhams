@@ -75,12 +75,11 @@ define([
 											
  ////////////accordion
 				
-							$(window).resize(function() {
-                            if ( $(window).width() < 740 ) {
+							$(document).ready(function() {
 							 //прикрепляем клик по заголовкам .btn-name
 								
 							$('.btn-name').on('click', f_acc);
-							}
+								
 							});
 							
 							 
