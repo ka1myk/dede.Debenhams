@@ -77,11 +77,9 @@ define([
 				
 							$(document).ready(function() {
 							 //прикрепляем клик по заголовкам .btn-name
-							if ($(window).width() < 740){	
+								
 							$('.btn-name').on('click', f_acc);
-								} else {
-									$('.btn-name').on('click', f_acc).stop([clearQueue],[jumpToEnd]);
-								}
+								
 							});
 							
 							 
@@ -93,15 +91,20 @@ define([
 								
 								
 							//скрываем все кроме того, что должны открыть
-									
+							if ($(window).width() < 740){		
 							  $('.btn-content').not($(this).next()).slideUp(300);
-								
-							// открываем или скрываем блок под заголовком, по которому кликнули
-									
 							  $(this).next().slideToggle(500);
 								}
+							 else {
+								$('.btn-content').not($(this).next()).stop(true,true) ;
+								$(this).next().stop(true,true);
+								}
+								}
+							// открываем или скрываем блок под заголовком, по которому кликнули
+									
+							 
 							
-							
+							 
 							
 				
 						
