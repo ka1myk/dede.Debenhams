@@ -77,9 +77,11 @@ define([
 				
 							$(document).ready(function() {
 							 //прикрепляем клик по заголовкам .btn-name
-								
+							if ($(window).width() < 740){	
 							$('.btn-name').on('click', f_acc);
-								
+								} else {
+									$('.btn-name').on('click', f_acc).stop([clearQueue],[jumpToEnd]);
+								}
 							});
 							
 							 
