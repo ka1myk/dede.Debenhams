@@ -111,15 +111,12 @@ define([
 						
 								
 							$(document).ready(function() {
+								var emptyReviews = ('Be the first to review this product');
+								var actionsRev = $('.reviews-actions a').html();
 								
-								var reviewsDetect = $('.rating-summary').length;
-								var deleteEmpty = $('.product.info.detailed').removeClass('empty-style');
-								var reviewsWrap = $('.product.info.detailed').addClass('empty-style');
-								if (reviewsDetect){
-									deleteEmpty;
-								} else {
-									reviewsWrap;
-								}
+								if (emptyReviews===actionsRev){
+									$('.product.info.detailed').addClass('empty-style');
+								} 
 							});	
 								
 								
