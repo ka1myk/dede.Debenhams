@@ -111,10 +111,10 @@ define([
 						
 								
 							$(document).ready(function() {
-								var emptyReviews = ('Be the first to review this product');
-								var actionsRev = $('.reviews-actions a').html();
-								
-								if (emptyReviews===actionsRev){
+								var noEmptRev = $('.action.view span').html();
+							
+								console.log(noEmptRev);
+								if (noEmptRev >= 0) && (noEmptRev !== null) {
 									$('.product.info.detailed').addClass('empty-style');
 								} 
 							});	
