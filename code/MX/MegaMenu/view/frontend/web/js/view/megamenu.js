@@ -112,9 +112,9 @@ define([
 								
 							$(document).ready(function() {
 								var noEmptRev = $('.action.view span').length;
-								console.log(noEmptRev);
+								
 								var contA = $('.action.view span').length;
-								console.log(contA);
+								
 								
 								if (contA === 0 , noEmptRev === 0){
 									$('.product.info.detailed').addClass('empty-style');
@@ -122,7 +122,12 @@ define([
 							});	
 								
 								
+							$(document).ready(function() {
 								
+								var reviewsCount = $('#tab-label-reviews-title').html();
+								console.log(reviewsCount);
+								
+							});	
 							
 											 
 											 
