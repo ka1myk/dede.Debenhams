@@ -111,12 +111,12 @@ define([
 						
 								
 							$(document).ready(function() {
-								var noEmptRev = $('.action.view span').html();
+								var noEmptRev = $('.action.view span').length;
 								console.log(noEmptRev);
 								var contA = $('.action.view span').length;
 								console.log(contA);
 								
-								if (contA , noEmptRev >= 0 , noEmptRev !== null){
+								if (contA === 0 , noEmptRev === 0){
 									$('.product.info.detailed').addClass('empty-style');
 								} 
 							});	
