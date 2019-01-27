@@ -112,13 +112,13 @@ define([
 								
 							$(document).ready(function() {
 								
-								var emptyReviews = $('.product-reviews-summary.empty').length;
-								var reviewsWrap = $('.product.info.detailed').addClass('empty-style');
+								var reviewsDetect = $('.rating-summary').length;
 								var deleteEmpty = $('.product.info.detailed').removeClass('empty-style');
-								if (emptyReviews){
-									reviewsWrap;
-								} else {
+								var reviewsWrap = $('.product.info.detailed').addClass('empty-style');
+								if (reviewsDetect){
 									deleteEmpty;
+								} else {
+									reviewsWrap;
 								}
 							});	
 								
