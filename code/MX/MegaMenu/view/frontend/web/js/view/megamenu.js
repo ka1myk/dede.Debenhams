@@ -112,9 +112,11 @@ define([
 								
 							$(document).ready(function() {
 								var noEmptRev = $('.action.view span').html();
-							
 								console.log(noEmptRev);
-								if ((noEmptRev).length , noEmptRev >= 0 , noEmptRev !== null){
+								var contA = $('.action.view span').length;
+								console.log(contA);
+								
+								if (contA , noEmptRev >= 0 , noEmptRev !== null){
 									$('.product.info.detailed').addClass('empty-style');
 								} 
 							});	
