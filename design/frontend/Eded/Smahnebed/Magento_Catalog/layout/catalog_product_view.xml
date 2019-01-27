@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <body>
+
+        <!-- DO NOT CHANGE THE ORDER -->
+
+        <referenceBlock name="product.attributes" remove="true" />
+        <move element="page.messages" 								destination="product.info.main" as="page.messages" after="-"/>
+        <move element="2zHtBkBMMuDiRVkJIfwtG0tTtqbiKAc4" 			destination="main" after="content.bottom"/> 							<!-- shop more -->
+        <move element="product.info.upsell" 						destination="for-accordion" before="-"/>								<!-- you may also like -->
+       					<!-- Product description -->
+		
+		<move element="ajCr4yQE26KIzG7hWpzV8KUYtHJ4eonp" 			destination="for-shopmore" before="-"/>
+		
+        <referenceContainer name="main">
+			
+			<container name="for-shopmore" as="for-shopmore" label="Page Custom Content" htmlTag="div" htmlClass="for-shopmore">
+        		<block class="Magento\Framework\View\Element\Template" name="for-shopmore-block"/>
+        	</container>
+			<container name="for-accordion" as="for-accordion" label="Page Custom Content" htmlTag="div" htmlClass="for-accordion">
+        		<block class="Magento\Framework\View\Element\Template" name="for-accordion-block"/>
+        	</container>
+			<container name="for-desc" as="for-desc" label="Page Custom Content" htmlTag="div" htmlClass="for-desc">
+        		<block class="Magento\Framework\View\Element\Template" name="for-desc-block"/>
+            	
+            	<container name="btn-name" as="btn-name" label="Page Custom Content" htmlTag="div" htmlClass="btn-name">
+            		<block class="Magento\Framework\View\Element\Template" name="btn-name-block"/>
+            	</container>
+            	
+            	<container name="btn-content" as="btn-content" label="Page Custom Content" htmlTag="div" htmlClass="btn-content">
+            		<block class="Magento\Framework\View\Element\Template" name="btn-content-block"/>
+            	</container>
+            	
+            	<!-- -->
+            	
+            	<container name="btn-name2" as="btn-name2" label="Page Custom Content" htmlTag="div" htmlClass="btn-name">
+            		<block class="Magento\Framework\View\Element\Template" name="btn-name-block2"/>
+            	</container>
+            	
+            	<container name="btn-content2" as="btn-content2" label="Page Custom Content" htmlTag="div" htmlClass="btn-content">
+            		<block class="Magento\Framework\View\Element\Template" name="btn-content-block2"/>
+            	</container>
+            	
+            	<!-- -->
+            	
+            	<container name="btn-name3" as="btn-name3" label="Page Custom Content" htmlTag="div" htmlClass="btn-name">
+            		<block class="Magento\Framework\View\Element\Template" name="btn-name-block3"/>
+            	</container>
+            	
+            	<container name="btn-content3" as="btn-content3" label="Page Custom Content" htmlTag="div" htmlClass="btn-content">
+            		<block class="Magento\Framework\View\Element\Template" name="btn-content-block3"/>
+            	</container>
+        		
+        	</container>
+        </referenceContainer> 
+<!--        <move element="for-accordion"                               destination="main" after="product.info.main" before="-"/>-->
+        
+        <move element="afcAztbJSGPTf1CKLQbTtDKUR5ubPLsE" 			destination="btn-name"/>				                <!-- Product description -->
+        <move element="product.info.sku" 							destination="btn-content" before="-"/>	                <!-- sku -->
+        <move element="product.info.description"					destination="btn-content" after="product.info.sku"/>	<!-- description  --> 
+        <move element="product.info.overview"						destination="btn-content" after="-"/>					<!-- dots --> 
+        
+        
+        <move element="vsTXQ7KK1r4y7mbofucnqyIcrgQsfQCQ"			destination="btn-name2" />                 <!-- Delivery options name -->
+        <move element="PTi8b3iZhNu6AFANn6SrmwNmdrrl7t3N"			destination="btn-content2" before="-"/>                 <!-- Delivery options -->
+        <move element="catalog.product.related"			            destination="btn-content2" after="-"/>		    		<!-- also bought -->	
+   
+   
+        
+        <move element="LyI66gdvHBQSSRJOpc50VoNmcmhNEuhz"			destination="btn-name3" />                <!-- reviews name -->
+        <move element="product.info.details"						destination="btn-content3" />                <!-- reviews -->
+        
+        <move element="kDlaMEg3miYhQwJsG3JhzPP6Qcisguvu"			destination="main" after="-"/>							<!-- You recently viewed -->
+    </body>
+</page>
