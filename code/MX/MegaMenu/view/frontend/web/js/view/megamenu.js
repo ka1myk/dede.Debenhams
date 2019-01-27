@@ -124,10 +124,11 @@ define([
 								
 							$(document).ready(function() {
 								
-								var reviewsCount = $('#tab-label-reviews-title').html();
+								var reviewsCount = $('#tab-label-reviews-title counter').html();
 								var ratingStars = $('.rating-result').html();
+								var defaultText = $('#reviews1').html();
 								
-								$('#reviews1').html(ratingStars + reviewsCount);
+								$('#reviews1').html(defaultText + ratingStars + reviewsCount);
 								
 							});	
 							
