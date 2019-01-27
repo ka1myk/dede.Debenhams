@@ -114,8 +114,11 @@ define([
 								
 								var emptyReviews = $('.product-reviews-summary.empty').length;
 								var reviewsWrap = $('.product.info.detailed').addClass('empty-style');
+								var deleteEmpty = $('.product.info.detailed').removeClass('empty-style');
 								if (emptyReviews){
 									reviewsWrap;
+								} else {
+									deleteEmpty;
 								}
 							});	
 								
