@@ -114,7 +114,7 @@ define([
 								var noEmptRev = $('.action.view span').html();
 							
 								console.log(noEmptRev);
-								if (noEmptRev >= 0) && (noEmptRev !== null) {
+								if (noEmptRev >= 0 , noEmptRev !== null){
 									$('.product.info.detailed').addClass('empty-style');
 								} 
 							});	
