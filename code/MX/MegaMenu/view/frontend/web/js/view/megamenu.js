@@ -55,7 +55,7 @@ define([
 //									console.log('WoW!');
 //								    });
 //							});
-				
+								
 				
 				
           	
@@ -104,14 +104,14 @@ define([
 							// открываем или скрываем блок под заголовком, по которому кликнули
 									
 							 
-							$('.fotorama__img').click(function(){
-								var closeButton = $('.fotorama__fullscreen-icon');
-								(closeButton).text('<p>Close</p>');
-								
-								console.log(closeButton);
-								
-								
-							});
+//							$('.fotorama__img').click(function(){
+//								var closeButton = $('.fotorama__fullscreen-icon');
+//								(closeButton).text('<p>Close</p>');
+//								
+//								console.log(closeButton);
+//								
+//								
+//							});
 							 
 							
 				
@@ -131,11 +131,10 @@ define([
 								
 							$(document).ready(function() {
 								
-								var reviewsCount = $('#tab-label-reviews-title counter').html();
-								var ratingStars = $('.rating-result').html();
-								console.log(ratingStars);
+								var reviewButton = $('.reviews-actions .action.add');
+								var reviewsContent = $('reviews-cont');
 								
-								$('#reviews1').html(ratingStars);
+								
 								
 							});	
 							

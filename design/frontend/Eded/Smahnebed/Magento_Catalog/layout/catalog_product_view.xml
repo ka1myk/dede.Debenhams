@@ -30,7 +30,7 @@
 			<container name="for-desc" as="for-desc" label="Page Custom Content" htmlTag="div" htmlClass="for-desc">
         		<block class="Magento\Framework\View\Element\Template" name="for-desc-block"/>
             	
-            	<container name="btn-name" as="btn-name" label="Page Custom Content" htmlTag="div" htmlClass="btn-name reviews-cont">
+            	<container name="btn-name" as="btn-name" label="Page Custom Content" htmlTag="div" htmlClass="btn-name">
             		<block class="Magento\Framework\View\Element\Template" name="btn-name-block"/>
             	</container>
             	
@@ -54,7 +54,7 @@
             		<block class="Magento\Framework\View\Element\Template" name="btn-name-block3"/>
             	</container>
             	
-            	<container name="btn-content3" as="btn-content3" label="Page Custom Content" htmlTag="div" htmlClass="btn-content">
+            	<container name="btn-content3" as="btn-content3" label="Page Custom Content" htmlTag="div" htmlClass="btn-content reviews-cont">
             		<block class="Magento\Framework\View\Element\Template" name="btn-content-block3"/>
             	</container>
         		
