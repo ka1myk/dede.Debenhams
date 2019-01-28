@@ -50,7 +50,7 @@
             	
             	<!-- -->
             	
-            	<container name="btn-name3" as="btn-name3" label="Page Custom Content" htmlTag="div" htmlClass="btn-name">
+            	<container name="btn-name3" as="btn-name3" label="Page Custom Content" htmlTag="div" htmlClass="btn-name reviews-name">
             		<block class="Magento\Framework\View\Element\Template" name="btn-name-block3"/>
             	</container>
             	
