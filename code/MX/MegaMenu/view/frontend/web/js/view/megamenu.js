@@ -129,7 +129,7 @@ define([
 							});	
 								
 								
-							$(document).ready(function() {
+							
 								
 								
 								var reviewButton = $('.reviews-actions .action.add');
@@ -143,7 +143,7 @@ define([
 								});
 								
 								
-							});	
+							
 							
 											 
 											 
