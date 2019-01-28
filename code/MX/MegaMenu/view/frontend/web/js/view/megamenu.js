@@ -131,6 +131,8 @@ define([
 								
 								anchorTarget.on('click', function(){
 									$('.reviews-cont').css({"display":"block"});
+									$('.btn-name').addClass('minus-icon');
+									
 								});
 							});	
 								
