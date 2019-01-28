@@ -104,7 +104,14 @@ define([
 							// открываем или скрываем блок под заголовком, по которому кликнули
 									
 							 
-							
+							$(document).ready(function(){
+								
+								($('.fotorama__fullscreen-icon').text('Close'));
+								
+								
+								
+								
+							});
 							 
 							
 				
