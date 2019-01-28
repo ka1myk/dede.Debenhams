@@ -132,14 +132,8 @@ define([
 							
 								
 								
-								var reviewButton = $('.reviews-actions .action.add');
-								var reviewsContent = $('reviews-cont');
-								
-								reviewButton.click(function(){
-									reviewsContent.css({"display":"block"});
-									
-									
-									
+								$(document).on('click','div[class^="reviews-actions"] a[class^="add"]', function(){
+									alert('You are Monster!');
 								});
 								
 								
