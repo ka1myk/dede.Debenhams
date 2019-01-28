@@ -979,17 +979,19 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 
 
 .for-desc .reviews-cont .product.data.items .data.item.content{display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-orient:vertical; -webkit-box-direction:reverse; -ms-flex-direction:column-reverse; flex-direction:column-reverse; -webkit-flex-direction:column-reverse; padding-top: 35px}
-.for-desc .reviews-cont .product.data.items .item.review-item{position: relative; margin-top: 60px; border: 1px solid #cccccc; background: #fbfbf8; padding: 20px 15px }
-.for-desc .reviews-cont .product.data.items .item.review-item .review-details{position: absolute; top: -30px;display:-webkit-box; display:-ms-flexbox; display:flex; display: -webkit-flex; width:100%;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;-webkit-justify-content: space-between;right: 0; left: 0; margin: auto}
-.for-desc .reviews-cont .product.data.items .item.review-item .review-content{display: block; padding: 30px 0 10px;}
+.for-desc .reviews-cont .product.data.items .item.review-item{position: relative; margin-top: 70px; border: 1px solid #cccccc; background: #fbfbf8; padding: 20px 15px }
+.for-desc .reviews-cont .product.data.items .item.review-item:before{content: ''; position: absolute}
+.for-desc .reviews-cont .product.data.items .item.review-item .review-details{position: absolute; top: -40px;display:-webkit-box; display:-ms-flexbox; display:flex; display: -webkit-flex; width:100%;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;-webkit-justify-content: space-between;right: 0; left: 0; margin: auto}
+.for-desc .reviews-cont .product.data.items .item.review-item .review-content{display: block; padding: 30px 0 10px;margin: 0}
 .for-desc .review-author .review-details-value{text-transform: uppercase; font-weight: 700}
 .for-desc .review-author .review-details-label{display: none}
+.for-desc .review-title{font-size: 24px}
 
 @media only screen and (min-width: 370px){
 	.logo img{width:107px; height: auto}
 	.del-bar li{width: 100%; box-sizing: border-box; max-width: none}
 	.del-bar{padding-left: 15px; box-sizing: border-box}
-	.for-desc .review-ratings{display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-justify-content:space-between}
+	.for-desc .review-ratings{display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-justify-content:space-between; max-width: 320px; margin: auto}
 }
 
 
