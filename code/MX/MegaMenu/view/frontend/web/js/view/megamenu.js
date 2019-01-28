@@ -105,10 +105,10 @@ define([
 									
 							 
 							$(document).ready(function(){
+								var closeButton = $('.fotorama__fullscreen-icon');
+								(closeButton).html('<p>Close</p>');
 								
-								($('.fotorama__fullscreen-icon').text('Close'));
-								
-								
+								console.log(closeButton);
 								
 								
 							});
