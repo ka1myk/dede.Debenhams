@@ -134,6 +134,13 @@ define([
 									$('.reviews-name').addClass('minus-icon');
 									
 								});
+								
+								
+								if (!$('.product.info.detailed').hasClass('empty-style')){
+									$('#reviews .collapsible').text('Write a review');
+								}
+								
+								
 							});	
 								
 								
