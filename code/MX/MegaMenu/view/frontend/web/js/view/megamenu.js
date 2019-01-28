@@ -131,9 +131,16 @@ define([
 								
 							$(document).ready(function() {
 								
+								
 								var reviewButton = $('.reviews-actions .action.add');
 								var reviewsContent = $('reviews-cont');
 								
+								reviewButton.click(function(){
+									reviewsContent.css({"display":"block"});
+									
+									
+									
+								});
 								
 								
 							});	
