@@ -104,9 +104,9 @@ define([
 							// открываем или скрываем блок под заголовком, по которому кликнули
 									
 							 
-							$(document).ready(function(){
+							$('.fotorama__img').click(function(){
 								var closeButton = $('.fotorama__fullscreen-icon');
-								(closeButton).html('<p>Close</p>');
+								(closeButton).text('<p>Close</p>');
 								
 								console.log(closeButton);
 								
