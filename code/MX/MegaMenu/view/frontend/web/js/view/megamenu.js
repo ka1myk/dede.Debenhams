@@ -125,16 +125,19 @@ define([
 								
 								if (contA === 0 , noEmptRev === 0){
 									$('.product.info.detailed').addClass('empty-style');
-								} 
+								}
+								
+								var anchorTarget = $('.reviews-actions .action.add');
+								
+								anchorTarget.on('click', function(){
+									$('.reviews-cont').css({"display":"block"});
+								});
 							});	
 								
 								
 							
 								
 								
-								$(document).on('click','div[class^="reviews-actions"] a[class^="add"]', function(){
-									alert('You are Monster!');
-								});
 								
 								
 							
