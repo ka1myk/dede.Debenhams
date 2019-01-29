@@ -148,6 +148,14 @@ define([
 								}
 								
 								
+								$(".desc-name").on("click","a", function (event) {
+									event.preventDefault();
+									var id  = $(this).attr('#tab-label-product-description'),
+										top = $(id).offset().top;
+									$('body,html').animate({scrollTop: top}, 1500);
+								});
+								
+								
 							});	
 								
 								
