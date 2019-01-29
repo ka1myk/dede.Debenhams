@@ -148,15 +148,7 @@ define([
 								}
 								
 								
-								$(".desc-name").on("click","a", function (event) {
-									event.preventDefault();
-									var id  = $(this).attr('#tab-label-product-description'),
-										top = $(id).offset().top;
-									$('body,html').animate({scrollTop: top}, 1500);
-								});
 								
-								
-							});	
 								
 								
 							
@@ -232,7 +224,7 @@ define([
                         
                         //need to add smooth scroll of product description like review
                         $(document).ready(function(){
-                            $(".full-description-link").click(function() {
+                            $(".desc-name").click(function() {
                                 console.log('scroll');
                                 $('html, body').animate({
                                     scrollTop: $("#tab-label-product-description").offset().top
