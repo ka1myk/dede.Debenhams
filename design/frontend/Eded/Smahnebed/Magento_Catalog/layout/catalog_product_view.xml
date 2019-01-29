@@ -19,6 +19,11 @@
 		
 		<move element="ajCr4yQE26KIzG7hWpzV8KUYtHJ4eonp" 			destination="for-shopmore" before="-"/>
 		
+		
+		<move element="jvqcEFXsoN9cuO4DF4cpmF6upvapFyKU"            destination="product.info.main" after="product.info.review" before="product.info.price"/>
+		
+		
+		
         <referenceContainer name="main">
 			
 			<container name="for-shopmore" as="for-shopmore" label="Page Custom Content" htmlTag="div" htmlClass="for-shopmore">
