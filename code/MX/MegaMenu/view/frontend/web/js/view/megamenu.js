@@ -223,14 +223,15 @@ define([
                         
                         
                         //need to add smooth scroll of product description like review
-                        $(document).ready(function(){
+                        
                             $(".desc-name").click(function() {
+								event.preventDefault();
                                 console.log('scroll');
                                 $('html, body').animate({
                                     scrollTop: $("#tab-label-product-description").offset().top
                                 }, 200);
                             });
-                        });
+                        
 				
 				
 //                		$(document).ready(function(){
@@ -361,7 +362,7 @@ define([
                         }, 42);
                     }
                 });
-            }
+            });
 
             // Add class for nav-anchor where the link has href
             this.element.find('.mx-megamenu__item .mx-megamenu__link').each(function(i, item) {
