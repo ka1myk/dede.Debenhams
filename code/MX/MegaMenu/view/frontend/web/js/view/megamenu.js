@@ -129,6 +129,7 @@ define([
 								
 								var anchorTarget = $('.reviews-actions .action.add');
 								var anchorTarget2 = $('.reviews-actions .action.view');
+								var anchorTarget3 = $('.desc-name');
 								
 								anchorTarget.on('click', function(){
 									$('.reviews-cont').css({"display":"block"});
@@ -142,13 +143,19 @@ define([
 									
 								});
 								
+								anchorTarget3.on('click', function(){
+									$('.descript-cont').css({"display":"block"});
+									$('.descript-name').addClass('minus-icon');
+									
+								});
+								
 								
 								if (!$('.product.info.detailed').hasClass('empty-style')){
 									$('#reviews .collapsible').text('Write a review');
 								}
 								
 								
-								
+							});	
 								
 								
 							
@@ -223,7 +230,7 @@ define([
                         
                         
                         //need to add smooth scroll of product description like review
-                        
+                        $(document).ready(function(){
                             $(".desc-name").click(function() {
 								event.preventDefault();
                                 console.log('scroll');
@@ -231,7 +238,7 @@ define([
                                     scrollTop: $("#tab-label-product-description").offset().top
                                 }, 200);
                             });
-                        
+                        });
 				
 				
 //                		$(document).ready(function(){
@@ -362,7 +369,7 @@ define([
                         }, 42);
                     }
                 });
-            });
+            }
 
             // Add class for nav-anchor where the link has href
             this.element.find('.mx-megamenu__item .mx-megamenu__link').each(function(i, item) {

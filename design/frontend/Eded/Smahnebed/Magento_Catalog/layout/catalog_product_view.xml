@@ -35,11 +35,11 @@
 			<container name="for-desc" as="for-desc" label="Page Custom Content" htmlTag="div" htmlClass="for-desc">
         		<block class="Magento\Framework\View\Element\Template" name="for-desc-block"/>
             	
-            	<container name="btn-name" as="btn-name" label="Page Custom Content" htmlTag="div" htmlClass="btn-name">
+            	<container name="btn-name" as="btn-name" label="Page Custom Content" htmlTag="div" htmlClass="btn-name descript-name">
             		<block class="Magento\Framework\View\Element\Template" name="btn-name-block"/>
             	</container>
             	
-            	<container name="btn-content" as="btn-content" label="Page Custom Content" htmlTag="div" htmlClass="btn-content">
+            	<container name="btn-content" as="btn-content" label="Page Custom Content" htmlTag="div" htmlClass="btn-content descript-cont">
             		<block class="Magento\Framework\View\Element\Template" name="btn-content-block"/>
             	</container>
             	
