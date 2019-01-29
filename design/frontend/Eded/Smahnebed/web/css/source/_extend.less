@@ -837,7 +837,15 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 //cart
 
 .catalog-product-view.page-layout-1column .fotorama__stage__frame .fotorama__img{width: 100%; height: 100%}
+
+.catalog-product-view.page-layout-1column .product-reviews-summary .reviews-actions .action.add{color: black;font-size: 13px;text-decoration: underline;}
+.catalog-product-view.page-layout-1column .product-reviews-summary .reviews-actions .action.add:before{content: '('}
+.catalog-product-view.page-layout-1column .product-reviews-summary .reviews-actions .action.add:after{content: ')'}
+
 .catalog-product-view.page-layout-1column .product-reviews-summary.empty .reviews-actions .action.add{font-size: 14px; text-decoration: underline; color: black}
+.catalog-product-view.page-layout-1column .product-reviews-summary.empty .reviews-actions .action.add:before{content: none}
+.catalog-product-view.page-layout-1column .product-reviews-summary.empty .reviews-actions .action.add:after{content: none}
+
 .catalog-product-view.page-layout-1column .product-social-links{display: block; margin: 0}
 .catalog-product-view.page-layout-1column .product-social-links .action.towishlist span{display: none}
 .catalog-product-view .page-main .product-info-main .product-info-price{width: 100%!important; padding: 15px 0}
@@ -995,7 +1003,7 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .for-desc .fieldset.review-fieldset .field.required .control{width: 76%}
 .for-desc .fieldset.review-fieldset .field.required label:after{content: none}
 .for-desc .review-content .block.review-add {padding-bottom: 20px}
-.for-desc .review-content{webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);}
+.for-desc .review-content{-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);}
 .for-desc .review-content .review-control-vote:before{color:#00b39e; font-size: 26px; height: 26px }
 .for-desc .review-content .field.required.review-field-ratings .control{width: 100%}
 .for-desc .field.choice.review-field-rating{height: 40px;position: relative;width: 70%;margin: auto;margin-right: 0}
@@ -1009,7 +1017,7 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .for-desc .review-form .action.submit.primary span{font-size: 24px}
 .for-desc .review-form .field.choice .label span{font-weight: normal}
 .for-desc .review-control-vote label:before{color: #fecb00}
-.for-desc .items.review-items .item.review-item{box-shadow: none}
+.for-desc .items.review-items .item.review-item .review-content{box-shadow: none}
 
 
 
