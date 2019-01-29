@@ -1416,14 +1416,6 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	.catalog-product-view .page-main .page-title-wrapper.product{padding: 30px 0 10px}
 	
 	
-	
-//FOTORAMA	
-	
-	.catalog-product-view.page-layout-1column .fotorama-item.fotorama{display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-flex-direction: column }
-	.catalog-product-view.page-layout-1column .fotorama__nav-wrap--vertical.fotorama__nav-wrap{position: relative}
-	
-	
-	
 }
 
 @media only screen and (min-width: 1024px){
