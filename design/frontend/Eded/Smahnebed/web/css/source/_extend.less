@@ -1419,10 +1419,12 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	
 //FOTORAMA	
 	
-	.catalog-product-view.page-layout-1column .fotorama-item.fotorama{display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-flex-direction: column }
-	.catalog-product-view.page-layout-1column .fotorama__nav-wrap--vertical.fotorama__nav-wrap{position: relative}
-	
-	
+	.catalog-product-view.page-layout-1column .fotorama-item.fotorama .fotorama__wrap{display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-flex-direction: column }
+	.catalog-product-view.page-layout-1column .fotorama-item.fotorama .fotorama__wrap .fotorama__nav-wrap--vertical.fotorama__nav-wrap{position: relative}
+	.catalog-product-view.page-layout-1column .fotorama-item.fotorama .fotorama__wrap .fotorama__stage{min-width: 100%; left: auto!important}
+	.fotorama__stage__shaft.fotorama__grab{min-width: 100%!important}
+	.fotorama__arr.fotorama__arr--next{right: 0!important}
+	.fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev{background: none!important; display: block}
 	
 }
 
