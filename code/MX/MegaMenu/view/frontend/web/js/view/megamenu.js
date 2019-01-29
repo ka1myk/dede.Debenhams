@@ -128,8 +128,15 @@ define([
 								}
 								
 								var anchorTarget = $('.reviews-actions .action.add');
+								var anchorTarget2 = $('.reviews-actions .action.view');
 								
 								anchorTarget.on('click', function(){
+									$('.reviews-cont').css({"display":"block"});
+									$('.reviews-name').addClass('minus-icon');
+									
+								});
+								
+								anchorTarget2.on('click', function(){
 									$('.reviews-cont').css({"display":"block"});
 									$('.reviews-name').addClass('minus-icon');
 									
