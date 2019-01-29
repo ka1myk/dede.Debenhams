@@ -1424,8 +1424,10 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	.catalog-product-view.page-layout-1column .fotorama-item.fotorama .fotorama__wrap .fotorama__stage{min-width: 100%; left: auto!important}
 	.fotorama__stage__shaft.fotorama__grab{min-width: 100%!important}
 	.fotorama__arr.fotorama__arr--next{right: 0!important}
-	.fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev{background: none!important; display: block}
-	
+	.fotorama__arr.fotorama__arr--next, .fotorama__arr.fotorama__arr--prev{background: none!important; display: block!important}
+	.fotorama__arr--next .fotorama__arr__arr{background-image: url(../images/arrow-s-r.svg);}
+	.fotorama__arr--prev .fotorama__arr__arr{background-image: url(../images/arrow-s-l.svg);}
+	.fotorama__arr--next .fotorama__arr__arr, .fotorama__arr--prev .fotorama__arr__arr{background-position: center; height: 30px; width: 30px}
 }
 
 @media only screen and (min-width: 1024px){
