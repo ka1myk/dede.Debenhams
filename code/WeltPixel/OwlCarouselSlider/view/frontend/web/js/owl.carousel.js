@@ -11,7 +11,7 @@
  */
 define(["jquery"], // Require jquery
 	function($){
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 
 			var drag, state, e;
 
@@ -1817,7 +1817,7 @@ define(["jquery"], // Require jquery
 		 * @author Bartosz Wojciechowski
 		 * @license The MIT License (MIT)
 		 */
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 
 			/**
 			 * Creates the lazy plugin.
@@ -1953,7 +1953,7 @@ define(["jquery"], // Require jquery
 		 * @author Bartosz Wojciechowski
 		 * @license The MIT License (MIT)
 		 */
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 
 			/**
 			 * Creates the auto height plugin.
@@ -2038,7 +2038,7 @@ define(["jquery"], // Require jquery
 		 * @author Bartosz Wojciechowski
 		 * @license The MIT License (MIT)
 		 */
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 
 			/**
 			 * Creates the video plugin.
@@ -2333,7 +2333,7 @@ define(["jquery"], // Require jquery
 		 * @author Bartosz Wojciechowski
 		 * @license The MIT License (MIT)
 		 */
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 
 			/**
 			 * Creates the animate plugin.
@@ -2448,7 +2448,7 @@ define(["jquery"], // Require jquery
 		 * @author Bartosz Wojciechowski
 		 * @license The MIT License (MIT)
 		 */
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 
 			/**
 			 * Creates the autoplay plugin.
@@ -2580,7 +2580,7 @@ define(["jquery"], // Require jquery
 		 * @author Artus Kolanowski
 		 * @license The MIT License (MIT)
 		 */
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 			'use strict';
 
 			/**
@@ -2979,7 +2979,7 @@ define(["jquery"], // Require jquery
 		 * @author Artus Kolanowski
 		 * @license The MIT License (MIT)
 		 */
-		;(function($, window, document, undefined) {
+		(function($, window, document, undefined) {
 			'use strict';
 
 			/**
