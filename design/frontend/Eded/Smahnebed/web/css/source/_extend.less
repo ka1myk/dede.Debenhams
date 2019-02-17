@@ -1065,7 +1065,7 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 //BAGS FIX/////////////	
 	
 	.products-grid .product-item-actions{margin: 0}	
-
+	.products-grid .product-item-actions > .actions-secondary{padding-left: 0}
 }
 
 
@@ -1967,6 +1967,12 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	
 	.minicart-wrapper .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.mage-dropdown-dialog{transform: none; height: auto}
 	.minicart-wrapper.active{width: 135px; right: 2px}
+	
+	
+	
+//	BUGS FIX//////////////
+	
+	.product-item-actions .actions-primary + .actions-secondary{width: auto}
 	
 	
 }
