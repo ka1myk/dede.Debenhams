@@ -19,7 +19,7 @@ define(
                         self.validationErrors.push(message);
                     }
                 });
-                return !Boolean(this.validationErrors.length);
+                return !this.validationErrors.length;
             }
         };
     }
