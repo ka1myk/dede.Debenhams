@@ -1025,20 +1025,25 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 
 //PRAVKI/////////////////////
 
-.minicart-wrapper{font-size: 12px}
+.minicart-wrapper{}
 .product-item-details {text-align: left;}
-.minicart-wrapper.active .action.showcart.active:before{display: none}
+.minicart-wrapper.orange.active .action.showcart.active:before{display: none}
 .minicart-items-wrapper{margin: 0}
 .minicart-wrapper.orange.active .flex-block{}
 .block.block-minicart.ui-dialog-content.ui-widget-content{height: 100%}
 #minicart-content-wrapper{height: 100%}
 #minicart-content-wrapper .block-content{height: 100%}
 .minicart-wrapper.active .block.block-minicart.ui-dialog-content.ui-widget-content{ height: 100%}
-#minicart-content-wrapper .flex-wrap{    height: 100%; -webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;-webkit-justify-content: space-between;}
-.minicart-items .product-item-name a{font-size: 12px; color: black; text-decoration: underline}
+#minicart-content-wrapper .flex-wrap{  height: 100%; -webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;-webkit-justify-content: space-between;}
+.minicart-items .product-item-name{margin: 0}
+.minicart-items .product-item-name a{font-size: 14px; color: black; text-decoration: underline}
 .product-item-details .product-item-pricing{display: -webkit-box; display: -ms-flexbox; display: flex; display: -webkit-flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse;}
+.flex-wrap .flex-block .minicart-items-wrapper{font-size: 12px}
 
 
+.product-item-details .details-qty.qty{margin: 0}
+.product-item-details .details-qty.qty .item-qty.cart-item-qty {border: none; margin: 0; padding: 0}
+.product-item-details .price-container .price{font-size: 14px}
 
 
 @media only screen and (min-width: 370px){
