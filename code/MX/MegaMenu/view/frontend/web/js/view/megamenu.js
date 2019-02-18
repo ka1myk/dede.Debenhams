@@ -179,7 +179,7 @@ define([
 							
 								$('.minicart-wrapper .action.showcart').click(function(){
 								if($('#btn-minicart-close').hasClass('close')){	
-								$('.flex-wrap:first-child').addClass('fixed-block-1');
+								$('.flex-wrap .flex-block:first-child').addClass('fixed-block-1');
 									}
 								var minicartHeight = $('#minicart-content-wrapper').outerHeight;
 								});
