@@ -33,6 +33,18 @@ define([
 									$('#maincontent').addClass('page-clone');
 									
                                     }});
+								
+								
+								$('#minicart-content-wrapper .flex-wrap .flex-block:first').attr('id','fixed-block-1');
+								var minicartHeight = $('#minicart-content-wrapper').outerHeight;
+								
+								
+								
+								
+								
+								
+								
+								
                           	});
 				
 //							$(document).ready(function(){
@@ -56,6 +68,10 @@ define([
 //								    });
 //							});
 								
+							
+				
+				
+					
 				
 				
           	
