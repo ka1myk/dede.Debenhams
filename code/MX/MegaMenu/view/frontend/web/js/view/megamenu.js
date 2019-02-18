@@ -171,8 +171,9 @@ define([
 								
 								
 								$('.minicart-wrapper .action.showcart').click(function(){
-									alert('Hello!');
-								$('#minicart-content-wrapper .block-content.ho-hint.ho-hint-outline.ho-hint-knockout .flex-wrap .flex-block:first-child').attr('id','fixed-block-1');
+									
+								$('flex-wrap:first-child').addClass('fixed-block-1');
+									
 								var minicartHeight = $('#minicart-content-wrapper').outerHeight;
 								});
 								
