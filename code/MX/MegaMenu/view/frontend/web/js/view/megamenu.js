@@ -35,8 +35,7 @@ define([
                                     }});
 								
 								
-								$('#minicart-content-wrapper .block-content.ho-hint.ho-hint-outline.ho-hint-knockout .flex-wrap .flex-block:first-child').attr('id','fixed-block-1');
-								var minicartHeight = $('#minicart-content-wrapper').outerHeight;
+								
 								
 								
 								
@@ -169,6 +168,13 @@ define([
 								if (!$('.product.info.detailed').hasClass('empty-style')){
 									$('#reviews .collapsible').text('Write a review');
 								}
+								
+								
+								$('.minicart-wrapper .action.showcart').click(function(){
+									alert('Hello!');
+								$('#minicart-content-wrapper .block-content.ho-hint.ho-hint-outline.ho-hint-knockout .flex-wrap .flex-block:first-child').attr('id','fixed-block-1');
+								var minicartHeight = $('#minicart-content-wrapper').outerHeight;
+								});
 								
 								
 							});	
