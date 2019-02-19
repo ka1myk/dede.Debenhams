@@ -5,6 +5,7 @@ return [
         'Magento_Directory' => 1,
         'Magento_Eav' => 1,
         'Magento_Theme' => 1,
+        'Dede_AllScripts' => 1,
         'Dede_WishList' => 1,
         'Magento_Cms' => 1,
         'Harrigo_EverCrumbs' => 1,
