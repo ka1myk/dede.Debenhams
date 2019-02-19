@@ -46,5 +46,14 @@ return [
     ],
     'install' => [
         'date' => 'Thu, 10 Jan 2019 18:20:17 +0000'
+    ],
+    'system' => [
+        'default' => [
+            'dev' => [
+                'debug' => [
+                    'debug_logging' => '0'
+                ]
+            ]
+        ]
     ]
 ];
