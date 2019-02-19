@@ -1,7 +1,7 @@
 var config = {
     map: {
         '*': {
-            'megaMenu': 'MX_MegaMenu/js/view/megamenu'
+            'all': 'Dede_AllScriptsDebenhams/js/all'
         }
     }
 };
