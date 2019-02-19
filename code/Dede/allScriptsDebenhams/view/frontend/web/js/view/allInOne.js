@@ -7,7 +7,6 @@ define([
 
 //start customs.js
             				
-	
     
                             //need to fix scroll of background when minicart is shown part 1
                           	$(document).ready(function() {
@@ -20,6 +19,8 @@ define([
 									$('#maincontent').addClass('page-clone');
 									
                                     }});
+								
+								
                           	});
 				
 //							$(document).ready(function(){
@@ -42,9 +43,7 @@ define([
 //									console.log('WoW!');
 //								    });
 //							});
-				
-				
-				
+								
           	
 							$(document).mouseup(function (e){ // событие клика по веб-документу
 										var divWrap = $(".mage-dropdown-dialog"); // тут указываем элемент
@@ -60,75 +59,95 @@ define([
 							});
 							
 											
-                            ////////////accordion
+ ////////////accordion
 				
 							$(document).ready(function() {
 							 //прикрепляем клик по заголовкам .btn-name
-							$('.btn-name').on('click', f_acc);
-							});
-
-							function f_acc(){
-							 
-								$('.btn-name').not(this).removeClass('minus-icon');
-								$(this).toggleClass('minus-icon');
-							//скрываем все кроме того, что должны открыть
-							  $('.btn-content').not($(this).next()).slideUp(300);
-							// открываем или скрываем блок под заголовком, по которому кликнули
-							  $(this).next().slideToggle(500);
 								
-							}
+							$('.btn-name').on('click', f_acc);
+								
+							});
 							
-							
-				
-							
-//							$(document).ready(function() {
-//							 //прикрепляем клик по заголовкам .btn-name
-//							$('.btn-name').on('click', add_class);
-//							});
-//
-//							function add_class(){
-//								$('.btn-name').not($(this)).removeClass('minus-icon'));
-//								$(this).addClass('minus-icon');
-//							} 
-//				
-						
-							 //прикрепляем клик по заголовкам .btn-name.minus-icon
-//							$('.btn-name.minus-icon').click(function(){
-//									setTimeout(function(){
-//										$(this).removeClass('minus-icon');
-//									},100);
+							 
+								function f_acc(){
+							 
+	
+							//скрываем все кроме того, что должны открыть
+							if ($(window).width() < 740){	
+								$('.btn-name').not(this).removeClass('minus-icon');
+								$(this).toggleClass('minus-icon');	
+							    $('.btn-content').not($(this).next()).slideUp(300);
+							    $(this).next().slideToggle(500);
+								}
+							 else {
+								$('.btn-content').not($(this).next()).stop(true,true) ;
+								$(this).next().stop(true,true);
+								}
+								
+								    
+								}
+							// открываем или скрываем блок под заголовком, по которому кликнули
+									
+							 
+//							$('.fotorama__img').click(function(){
+//								var closeButton = $('.fotorama__fullscreen-icon');
+//								(closeButton).text('<p>Close</p>');
+//								
+//								console.log(closeButton);
+//								
 //								
 //							});
-							
-
-				
-				
-				
-				
-//								var hiddenContent =	$('.btn-content');
-//								var btnName = $('btn-name');
-//								
-//								if (hiddenContent.is(':none')){
-//									btnName.addClass('plus-icon');
-//									}
-//								else{
-//									btnName.removeClass('plus-icon');
-//									}
+							 
 								
 							$(document).ready(function() {
+								var noEmptRev = $('.action.view span').length;
 								
-								var emptyReviews = $('.product-reviews-summary.empty').length;
-								var reviewsWrap = $('.product.info.detailed').addClass('empty-style');
-								if (emptyReviews){
-									reviewsWrap;
+								var contA = $('.action.view span').length;
+								
+								
+								if (contA === 0 , noEmptRev === 0){
+									$('.product.info.detailed').addClass('empty-style');
 								}
+								
+								var anchorTarget = $('.reviews-actions .action.add');
+								var anchorTarget2 = $('.reviews-actions .action.view');
+								var anchorTarget3 = $('.desc-name');
+								
+								anchorTarget.on('click', function(){
+									$('.reviews-cont').css({"display":"block"});
+									$('.reviews-name').addClass('minus-icon');
+									
+								});
+								
+								anchorTarget2.on('click', function(){
+									$('.reviews-cont').css({"display":"block"});
+									$('.reviews-name').addClass('minus-icon');
+									
+								});
+								
+								anchorTarget3.on('click', function(){
+									$('.descript-cont').css({"display":"block"});
+									$('.descript-name').addClass('minus-icon');
+									
+								});
+								
+								
+								if (!$('.product.info.detailed').hasClass('empty-style')){
+									$('#reviews .collapsible').text('Write a review');
+								}
+								
+								
 							});	
 								
+								
 							
-											 
-											 
-				
-				
+								$('.minicart-wrapper .action.showcart').click(function(){
+								if($('#btn-minicart-close').hasClass('close')){	
+								$('.flex-wrap .flex-block:first-child').addClass('fixed-block-1');
+									}
+								var minicartHeight = $('#minicart-content-wrapper').outerHeight;
+								});
+								
 				
                           	//need to fix scroll of background when minicart is shown part 2 setTimeout is neccessary
                           	$(document).ready(function() {
@@ -147,10 +166,7 @@ define([
                                 setTimeout(minicartBattle, 5000);
                           	});
 				
-							
-				
-				
-				
+
                           
 				            //need to add class orange to minicart part 1
     				        $(document).ready(function() {
@@ -189,24 +205,14 @@ define([
                         });
                         
                         
-                        //need to add smooth scroll to product description like review
+                        //need to add smooth scroll of product description like review
                         $(document).ready(function(){
-                            $(".full-description-link").click(function() {
-                                console.log('scrollDescription');
+                            $(".desc-name").click(function() {
+								event.preventDefault();
+                                console.log('scroll');
                                 $('html, body').animate({
-                                    scrollTop: $("#tab-label-product-description").offset().top -50
-                                }, 300);
-                            });
-                        });
-				
-				
-				        //need to add smooth scroll to review like in stock magento
-						$(document).ready(function(){
-                            $(".product-reviews-summary").click(function() {
-                                console.log('scrollReview');
-                                $('html, body').animate({
-                                    scrollTop: $("#reviews1").offset().top -50
-                                }, 300);
+                                    scrollTop: $("#tab-label-product-description").offset().top
+                                }, 200);
                             });
                         });
 				
@@ -231,10 +237,6 @@ define([
 					}
 				////
 			
-				
-				
-				
-				
 				
 //				ЛИПУЧЕЕ МЕНЮ!!!
 				
@@ -312,5 +314,7 @@ define([
                 /////
 
             
+                
+                //stop custom.js
                 
 });

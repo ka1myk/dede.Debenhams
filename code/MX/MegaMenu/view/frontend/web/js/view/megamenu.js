@@ -20,7 +20,6 @@ define([
                 
                 //start customs.js
             				
-	
     
                             //need to fix scroll of background when minicart is shown part 1
                           	$(document).ready(function() {
@@ -33,15 +32,6 @@ define([
 									$('#maincontent').addClass('page-clone');
 									
                                     }});
-								
-								
-								
-								
-								
-								
-								
-								
-								
 								
 								
                           	});
@@ -67,12 +57,6 @@ define([
 //								    });
 //							});
 								
-							
-				
-				
-					
-				
-				
           	
 							$(document).mouseup(function (e){ // событие клика по веб-документу
 										var divWrap = $(".mage-dropdown-dialog"); // тут указываем элемент
@@ -100,10 +84,7 @@ define([
 							 
 								function f_acc(){
 							 
-								
-								
-								 
-								
+	
 							//скрываем все кроме того, что должны открыть
 							if ($(window).width() < 740){	
 								$('.btn-name').not(this).removeClass('minus-icon');
@@ -115,6 +96,8 @@ define([
 								$('.btn-content').not($(this).next()).stop(true,true) ;
 								$(this).next().stop(true,true);
 								}
+								
+								    
 								}
 							// открываем или скрываем блок под заголовком, по которому кликнули
 									
@@ -128,9 +111,6 @@ define([
 //								
 //							});
 							 
-							
-				
-						
 								
 							$(document).ready(function() {
 								var noEmptRev = $('.action.view span').length;
@@ -170,9 +150,6 @@ define([
 								}
 								
 								
-								
-								
-								
 							});	
 								
 								
@@ -184,14 +161,6 @@ define([
 								var minicartHeight = $('#minicart-content-wrapper').outerHeight;
 								});
 								
-								
-								
-							
-							
-											 
-											 
-				
-				
 				
                           	//need to fix scroll of background when minicart is shown part 2 setTimeout is neccessary
                           	$(document).ready(function() {
@@ -210,10 +179,7 @@ define([
                                 setTimeout(minicartBattle, 5000);
                           	});
 				
-							
-				
-				
-				
+
                           
 				            //need to add class orange to minicart part 1
     				        $(document).ready(function() {
@@ -284,10 +250,6 @@ define([
 					}
 				////
 			
-				
-				
-				
-				
 				
 //				ЛИПУЧЕЕ МЕНЮ!!!
 				
