@@ -7221,7 +7221,7 @@
 "Fax","Факс",module,Magento_MultipleLocationInventory
 "Wishlist","Список желаний",module,Magento_MultipleWishlist
 "Customer's Wish List Report","Customer's Wish List Report",module,Magento_MultipleWishlist
-"My Wish Lists","Мой список желаний",module,Magento_MultipleWishlist
+"My Wish Lists","11Мой список желаний",module,Magento_MultipleWishlist
 "1 item in wish list","1 item in wish list",module,Magento_MultipleWishlist
 "%1 items in wish list","%1 items in wish list",module,Magento_MultipleWishlist
 "Wish List Search","Поиск по списку желаний",module,Magento_MultipleWishlist
@@ -14072,7 +14072,7 @@
 "Widget ID","Id виджета",module,Magento_Widget
 "Wish List","Список желаний",module,Magento_Wishlist
 "Wish List Sharing","Wish List Sharing",module,Magento_Wishlist
-"My Wish List","Мой список желаний",module,Magento_Wishlist
+"My Wish List","12Мой список желаний",module,Magento_Wishlist
 "%1's Wish List","Список пожеланий %1",module,Magento_Wishlist
 "Page not found.","Страница не найдена.",module,Magento_Wishlist
 "We can't specify a product.","We can't specify a product.",module,Magento_Wishlist
