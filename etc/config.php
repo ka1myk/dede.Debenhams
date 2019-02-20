@@ -8,7 +8,6 @@ return [
         'Dede_AllScripts' => 1,
         'Dede_WishList' => 1,
         'Magento_Cms' => 1,
-        'Evincemage_Translate' => 1,
         'Harrigo_EverCrumbs' => 1,
         'Ho_Templatehints' => 1,
         'Magento_Customer' => 1,
