@@ -255,10 +255,6 @@ define([
             if (!_.isUndefined(productData)) {
                 $(document).trigger('ajax:removeFromCart', productData['product_sku']);
             }
-            
-            $('.minicart-wrapper').removeClass("orange");
-			console.log('removeClass');
-             
         },
 
         /**
