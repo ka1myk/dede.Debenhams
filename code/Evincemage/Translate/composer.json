@@ -1,0 +1,16 @@
+{
+  "name": "evincemage/translate",
+  "description": "Evincemage Translate Extension",
+  "require": {},
+
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "evincemage/translate"
+      ]
+    ]
+  }
+}

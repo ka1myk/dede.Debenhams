@@ -1,0 +1,10 @@
+<?php
+$_helper = $this->helper('Evincemage\Translate\Helper\Data');
+$sniptcode = $_helper->getSniptcode();
+if($_helper->getIsEnable ()):
+?>
+<div class="form-language" style="width: 13%;float: left;">
+<?php echo $sniptcode;?>
+</div>
+
+<?php endif;?>
