@@ -86,20 +86,13 @@ define([
              */
             events['click ' + this.options.button.remove] =  function (event) {
                 event.stopPropagation();
-                confirm({
-                /*    content: self.options.confirmMessage, */
-                    actions: {
-                        /** @inheritdoc */
-                        confirm: function () {
-                            self._removeItem($(event.currentTarget));
-                        },
-
-                        /** @inheritdoc */
-                        always: function (e) {
-                            e.stopImmediatePropagation();
-                        }
-                    }
-                });
+                console.log("112");
+                self._removeItem($(event.currentTarget));
+                
+                
+                
+                
+                
             };
 
             /**
