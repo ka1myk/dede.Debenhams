@@ -313,8 +313,5 @@ define([
                 $("#tab-label-reviews").addClass("active");}   
                      */
                 /////
-
-            
-                
                 //stop custom.js
 });
