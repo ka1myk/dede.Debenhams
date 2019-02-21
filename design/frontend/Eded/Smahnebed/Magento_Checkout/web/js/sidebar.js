@@ -88,7 +88,7 @@ define([
                 event.stopPropagation();
                 console.log("destroy2");
                 confirm({
-                    content: self.options.confirmMessage,
+                   /* content: self.options.confirmMessage,*/
                     actions: {
                         /** @inheritdoc */
                         confirm: function () {
