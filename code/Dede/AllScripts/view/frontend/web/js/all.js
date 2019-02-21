@@ -195,8 +195,9 @@ define([
             				
             				    if (field === pattern)
             					    {	
+            					        console.log('removeClass_byTime');
             						    $('.minicart-wrapper').removeClass("orange");
-            						    console.log('removeClass_byTime');
+            						    
             					    }
             					    
                                 
