@@ -88,6 +88,10 @@ define([
                 event.stopPropagation();
                 self._removeItem($(event.currentTarget));
                 
+                //
+                
+                //
+                
             };
 
             /**
