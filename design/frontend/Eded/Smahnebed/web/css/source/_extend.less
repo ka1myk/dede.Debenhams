@@ -1050,8 +1050,9 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .for-desc .pdp-container.delivery-details-container .delivery-option .header{position: relative; padding-bottom: 15px}
 .for-desc .pdp-container.delivery-details-container h3, .pdp-container.delivery-details-container .espot-container h2{font-size: 16px; font-weight: 700;position: relative}
 .for-desc .pdp-container.delivery-details-container .header:before, .pdp-container.delivery-details-container .espot-container h2:before{content: ''; display:block; position: absolute;width: 22px; height: 22px; left: -35px; top: 0; bottom: 0; margin: auto; background-repeat: no-repeat; background-position: bottom; background-size: cover}
-.for-desc .delivery-option.home .header:before{background-image: url(../images/home-delivery.svg)}
+.for-desc .delivery-option.home .header:before{background-image: url(../images/home-delivery.svg);}
 .for-desc .delivery-option.collect .header:before{background-image: url(../images/click-collect.svg)}
+.for-desc .delivery-option.home .header:before,.for-desc .delivery-option.collect .header:before{top: -11px}
 .pdp-container.delivery-details-container .espot-container h2:before{background-image: url(../images/free-returns.svg); bottom: auto}
 .pdp-container.delivery-details-container .delivery-option-more-info{position: absolute; right: 0; top: 0}
 .pdp-container.delivery-details-container .delivery-option-more-info a.more-details-link{color: black; text-decoration: underline}
@@ -2160,10 +2161,10 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	.minicart-wrapper.active .action.showcart.active:after{content: none}
 	#minicart-content-wrapper .flex-wrap .flex-block:first-child .actions .primary button.action.primary.checkout{border-radius: 5px; -webkit-box-shadow: 0 3px 0 0 #BA490B; box-shadow: 0 3px 0 0 #BA490B;}
 	#minicart-content-wrapper .flex-wrap .flex-block:first-child .actions .primary button.action.primary.checkout:hover{background-color: #df560a;}
-	.minicart-wrapper.active .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.mage-dropdown-dialog:before{content: ''; display: block; position: absolute; width: 30px; height: 20px; background-image: url(../images/arrow-minicart); background-repeat: no-repeat}
+	.minicart-wrapper.active .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.mage-dropdown-dialog:before{content: ''; display: block; position: absolute; width: 30px; height: 20px; background-image: url(../images/arrow-minicart.svg); background-repeat: no-repeat;right: 50px;top: -13px;}
 	
-	
-	
+	#product-delivery-details-container .delivery-option.home .header h3:before{content: 'none'}
+	.for-desc .delivery-option.home .header:before,.for-desc .delivery-option.collect .header:before{left: 0}
 	
 }
 	
