@@ -86,12 +86,7 @@ define([
              */
             events['click ' + this.options.button.remove] =  function (event) {
                 event.stopPropagation();
-                console.log("112");
                 self._removeItem($(event.currentTarget));
-                
-                
-                
-                
                 
             };
 
