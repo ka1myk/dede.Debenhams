@@ -89,7 +89,7 @@ define([
                 self._removeItem($(event.currentTarget));
                 
                 //delete confirm from tablet version
-                function orangeBattle() {     
+                
                                 var field = $('.counter-number').html();
                                 var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
                                 
@@ -109,7 +109,7 @@ define([
             					    }
             					    
                                 
-                             }
+                             
                 //
                 
             };
