@@ -16,6 +16,35 @@ define([
     'mage/cookies'
 ], function ($, authenticationPopup, customerData, alert, confirm, _) {
     'use strict';
+    
+    $(document).ready(function() {
+                            
+                           
+                              function orangeBattle() {     
+                                var field = $('.counter-number').html();
+                                var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
+                                
+                                console.log(field);
+                                
+                                if (field !== pattern)
+            					    {	
+            						    $('.minicart-wrapper').addClass("orange");
+            						    console.log('addClass_byTime');
+            					    }
+            				
+            				    if (field === pattern)
+            					    {	
+            					        console.log('removeClass_byTime');
+            						    $('.minicart-wrapper').removeClass("orange");
+            						    
+            					    }
+            					    
+                                
+                             }
+                        setTimeout(orangeBattle, 7000);
+                        });
+    
+    
 
     $.widget('mage.sidebar', {
         options: {
@@ -86,30 +115,9 @@ define([
              */
             events['click ' + this.options.button.remove] =  function (event) {
                 
-                
-                
-                
-                
-                
+      
                 //delete confirm from tablet version
-                 var field = $('.counter-number').html();
-                                var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
-                                
-                                console.log(field + "field");
-                                console.log(pattern + "pattern");
-                                
-                                if (field !== pattern)
-            					    {	
-            						    $('.minicart-wrapper').addClass("orange");
-            						    console.log('addClass_byTime');
-            					    }
-            				
-            				    else
-            					    {	
-            					        console.log('removeClass_byTime');
-            						    $('.minicart-wrapper').removeClass("orange");
-            						    
-            					    }         
+                                    
                 //
                 event.stopPropagation();
                 self._removeItem($(event.currentTarget));
