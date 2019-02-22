@@ -758,6 +758,7 @@ body.cms-home .product-item-info .photo.image{width: 100%}
 .customer-account-create.page-layout-1column .account .legend{display: none}
 .customer-account-create.page-layout-1column .fieldset{min-inline-size:initial;margin: 0}
 .customer-account-create .fieldset.create.info .field.required, .customer-account-create .fieldset.create.account .field.required{display: block;width: 100%; padding-top: 0}
+.customer-account-create .fieldset.create.account .field.required{ margin: auto}
 .customer-account-create .fieldset.create.info .field.required .control, .customer-account-create .fieldset.create.account .field.required{width: 100%}
 .customer-account-create .fieldset.create.info .field.required .control{max-width: 300px}
 .customer-account-create .fieldset > .field.choice .label{font-size: 12px; display: flex; display: -webkit-box; display:-webkit-flex}
@@ -1169,6 +1170,10 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 
 .minicart-wrapper .product .actions{float: none; margin: 0; position: absolute; right: 0; top: 0}
 .catalog-product-view.page-layout-1column .page.messages{position: absolute}
+
+.customer-account-create .fieldset > .field > .label, .fieldset > .fields > .field > .label{margin: 5px 0}
+
+
 
 @media only screen and (min-width: 370px){
 	.logo img{width:107px; height: auto}
@@ -2241,9 +2246,9 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 
 .customer-account-create .legend{margin: 0; border: none}
 .customer-account-create .fieldset.create.account .field.required .control{width: 300px}
-.customer-account-create .fieldset.create.account .field.required{display: flex; justify-content: space-between; display: -webkit-flex; -webkit-justify-content: space-between;width: 390px; margin: auto}
+
 .customer-account-create .form-create-account .fieldset.create.account:after{display: none}
-.customer-account-create .confirmation .label{width: 80px}
+
 .customer-account-create .field.required .label:after{display: none}
 .customer-account-create .fieldset > .legend{padding-bottom: 20px}
 .customer-account-create .action.submit.primary{}
