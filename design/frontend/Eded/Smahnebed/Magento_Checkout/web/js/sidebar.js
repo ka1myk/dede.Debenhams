@@ -46,7 +46,8 @@ define([
             this._calcHeight();
             this._isOverflowed();
             
-            var field = $('.counter-number').html();
+                                //war of the orange win!
+                                var field = $('.counter-number').html();
                                 var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
                                 
                                 console.log(field);
