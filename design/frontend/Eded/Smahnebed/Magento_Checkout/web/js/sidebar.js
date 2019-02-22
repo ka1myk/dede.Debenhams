@@ -85,15 +85,18 @@ define([
              * @param {jQuery.Event} event
              */
             events['click ' + this.options.button.remove] =  function (event) {
-                event.stopPropagation();
-                self._removeItem($(event.currentTarget));
+                
+                
+                
+                
+                
                 
                 //delete confirm from tablet version
-                
-                                var field = $('.counter-number').html();
+                 var field = $('.counter-number').html();
                                 var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
                                 
-                                console.log(field);
+                                console.log(field + "field");
+                                console.log(pattern + "pattern");
                                 
                                 if (field !== pattern)
             					    {	
@@ -101,16 +104,15 @@ define([
             						    console.log('addClass_byTime');
             					    }
             				
-            				    if (field === pattern)
+            				    else
             					    {	
             					        console.log('removeClass_byTime');
             						    $('.minicart-wrapper').removeClass("orange");
             						    
-            					    }
-            					    
-                                
-                             
+            					    }         
                 //
+                event.stopPropagation();
+                self._removeItem($(event.currentTarget));
                 
             };
 
