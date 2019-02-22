@@ -89,7 +89,27 @@ define([
                 self._removeItem($(event.currentTarget));
                 
                 //delete confirm from tablet version
-                $('.minicart-wrapper').removeClass("orange");
+                function orangeBattle() {     
+                                var field = $('.counter-number').html();
+                                var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
+                                
+                                console.log(field);
+                                
+                                if (field !== pattern)
+            					    {	
+            						    $('.minicart-wrapper').addClass("orange");
+            						    console.log('addClass_byTime');
+            					    }
+            				
+            				    if (field === pattern)
+            					    {	
+            					        console.log('removeClass_byTime');
+            						    $('.minicart-wrapper').removeClass("orange");
+            						    
+            					    }
+            					    
+                                
+                             }
                 //
                 
             };
