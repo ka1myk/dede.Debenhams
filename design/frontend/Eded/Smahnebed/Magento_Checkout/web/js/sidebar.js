@@ -17,32 +17,7 @@ define([
 ], function ($, authenticationPopup, customerData, alert, confirm, _) {
     'use strict';
     
-    $(document).ready(function() {
-                            
-                           
-                              function orangeBattle() {     
-                                var field = $('.counter-number').html();
-                                var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
-                                
-                                console.log(field);
-                                
-                                if (field !== pattern)
-            					    {	
-            						    $('.minicart-wrapper').addClass("orange");
-            						    console.log('addClass_byTime');
-            					    }
-            				
-            				    if (field === pattern)
-            					    {	
-            					        console.log('removeClass_byTime');
-            						    $('.minicart-wrapper').removeClass("orange");
-            						    
-            					    }
-            					    
-                                
-                             }
-                        setTimeout(orangeBattle, 7000);
-                        });
+   
     
     
 
@@ -70,6 +45,26 @@ define([
             $(this.options.targetElement).trigger('contentUpdated');
             this._calcHeight();
             this._isOverflowed();
+            
+            var field = $('.counter-number').html();
+                                var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
+                                
+                                console.log(field);
+                                
+                                if (field !== pattern)
+            					    {	
+            						    $('.minicart-wrapper').addClass("orange");
+            						    console.log('addClass_byTime');
+            					    }
+            				
+            				    if (field === pattern)
+            					    {	
+            					        console.log('removeClass_byTime');
+            						    $('.minicart-wrapper').removeClass("orange");
+            						    
+            					    }
+            
+            
         },
 
         /**
