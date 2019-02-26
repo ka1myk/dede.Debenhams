@@ -7,13 +7,18 @@ define([
 
                 //start customs.js
             				
+            				
                             
 
     
                             //need to fix scroll of background when minicart is shown part 1
                           	$(document).ready(function() {
                           	    
-                          	    $('value').not(this).addClass('notranslate');
+                          	    $(".goog-te-combo").click(function() {
+                                    $('value').not(this).addClass('notranslate');
+                                });
+                          	    
+                          	   
                           	    
                                 $(".showcart").click(function()
                                     {
