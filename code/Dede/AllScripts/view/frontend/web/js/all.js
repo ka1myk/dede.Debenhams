@@ -193,8 +193,9 @@ define([
                                 console.log(field);
                                 
                                 //$('.descript-cont').not(this).addClass("notranslate");
-                                //$(":not(.value)").addClass("notranslate");
-                                //$('.page-header, .sections nav-sections, .breadcrumbs, .page-footer, .product-info-main, .product, .media, .for-shopmore, .for-accordion').addClass("notranslate");
+                                //$("*:not(value)").addClass("notranslate");
+                                //$(".value,#google_translate_element,.skiptranslate, .goog-te-gadget,#:0.targetLanguage,.goog-te-combo").removeClass('notranslate');
+                                
                                 
                                
          
