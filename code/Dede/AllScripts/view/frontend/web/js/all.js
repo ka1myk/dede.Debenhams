@@ -14,8 +14,14 @@ define([
                           	    $(":not('.value')").addClass("notranslate");
                           	    $('#google_translate_element').removeClass('notranslate');
                           	    $('.skiptranslate').removeClass('notranslate');
-                          	    $('#:0.targetLanguage').removeClass('notranslate');
+                          	   
                           	    $('.goog-te-combo').removeClass('notranslate');
+                          	    $('.btn-content').removeClass('notranslate');
+                          	    $('.attribute').removeClass('notranslate');
+                          	    $('.for-desc').removeClass('notranslate');
+                          	    
+                          	    
+                          	    
                           	    
                           	   
                           	    
