@@ -1205,7 +1205,12 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .cms-home .screen.screen-2 .item-1 .img{background-image: url(../images/banner-left.jpg)}
 .cms-home .screen.screen-2 .item-2 .img{background-image: url(../images/banner-right.jpg)}
 .cms-home .screen.screen-2 .flex-block{padding-bottom: 40px}
-.cms-home .screen.screen-2 .txt p{margin: 6px 0}
+.cms-home .screen.screen-2 .flex-block .txt p{margin: 5px 0; color: black}
+.cms-home .screen.screen-2 .flex-block .txt p:nth-child(1){font-size: 14px; font-weight: 700; margin-top: 10px}
+.cms-home .screen.screen-2 .flex-block .txt p:nth-child(2){font-size: 26px; font-weight: 700}
+.cms-home .screen.screen-2 .flex-block .txt p:nth-child(3){font-size: 16px; font-weight: 300; font-style: normal}
+.cms-home .screen.screen-2 .button:nth-child(3){margin-top: 18px; font-size: 14px; color:black; position: relative; padding-right: 25px}
+.cms-home .screen.screen-2 .button:nth-child(3):after{content: '>'; display: block; position: absolute; top: 0; bottom: 0; right: 0; margin: autofont-size: 16px}
 
 @media only screen and (min-width: 370px){
 	.logo img{width:107px; height: auto}
