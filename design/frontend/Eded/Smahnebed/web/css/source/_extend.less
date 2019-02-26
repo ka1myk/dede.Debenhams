@@ -1235,8 +1235,10 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .cms-home .columns .column.main{padding-bottom: 30px}
 
 .cms-home .screen.screen-3 .button-wrap{width: 181px; position: absolute; bottom: -20px; background-color: white; right: 0; left: 0; margin: auto}
-.cms-home .screen.screen-3 .button-wrap a{color: black; padding: 5px 15px 5px; border: 1px solid black; border-radius: 35px; display: block; width: 141px; margin: auto}
-.cms-home .screen.screen-3 .button-wrap a:after{content: '';width: 12px; height: 12px;background-image: url(../images/arrow-on-button.svg);background-position: center; display: block; position: absolute; top: 0; bottom: 0; right: 0; margin:auto;}
+.cms-home .screen.screen-3 .button-wrap a{color: black; padding: 5px 15px 5px; border: 1px solid black; border-radius: 35px; display: block; width: 141px; margin: auto; position: relative; box-sizing: border-box; font-size: 14px}
+.cms-home .screen.screen-3 .button-wrap a:after{content: '';width: 12px; height: 12px;background-image: url(../images/arrow-on-button.svg);background-position: center; display: block; position: absolute; top: 0; bottom: 0; right: 9px; margin:auto;}
+.cms-home .screen.screen-3 .coment{margin-top: 25px; width: 75%; margin: auto}
+.cms-home .screen.screen-3 .coment p{color: black; font-style: normal; text-align: right; font-size: 13px}
 
 @media only screen and (min-width: 370px){
 	.logo img{width:107px; height: auto}
