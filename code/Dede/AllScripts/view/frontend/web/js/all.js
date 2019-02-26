@@ -194,6 +194,8 @@ define([
                                 
                                 //$('.descript-cont').not(this).addClass("notranslate");
                                 //$(":not(.value)").addClass("notranslate");
+                                $('.page-header').addClass("notranslate");
+                                
                                
          
                                 if (field !== pattern)
