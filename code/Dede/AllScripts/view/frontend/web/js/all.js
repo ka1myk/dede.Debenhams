@@ -196,7 +196,10 @@ define([
                                 if (field !== pattern)
             					    {	
             						    $('.minicart-wrapper').addClass("orange");
-            						    $('descript-cont').not($this).addClass('notranslate');
+            						    
+            						  
+            						    $('.descript-cont').not(this).addClass('notranslate');
+            						    
             						    console.log('addClass_byTime');
             					    }
             				
