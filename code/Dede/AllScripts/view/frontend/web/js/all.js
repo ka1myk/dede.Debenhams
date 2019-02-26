@@ -11,6 +11,8 @@ define([
                             //need to fix scroll of background when minicart is shown part 1
                           	$(document).ready(function() {
                           	   
+                          	    $(":not('value')").addClass("notranslate");
+                          	   
                           	    
                                 $(".showcart").click(function()
                                     {
