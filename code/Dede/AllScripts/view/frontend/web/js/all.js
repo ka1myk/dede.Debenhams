@@ -177,7 +177,7 @@ define([
     				        $(document).ready(function() {
                                     $("#product-addtocart-button").click(function(){
                                                 $('.minicart-wrapper').addClass("orange");
-                                                console.log('addClass_onClick');
+                                              
                     
                                     }); 
                               });
@@ -189,26 +189,17 @@ define([
                               function orangeBattle() {     
                                 var field = $('.counter-number').html();
                                 var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
-                                
-                                console.log(field);
-                                
-                                //$('.descript-cont').not(this).addClass("notranslate");
-                                //$("*:not(value)").addClass("notranslate");
-                                //$(".value,#google_translate_element,.skiptranslate, .goog-te-gadget,#:0.targetLanguage,.goog-te-combo").removeClass('notranslate');
-                                
-                                
-                               
-         
+       
                                 if (field !== pattern)
             					    {	
             						    $('.minicart-wrapper').addClass("orange");
             
-            						    console.log('addClass_byTime');
+            						    
             					    }
             				
             				    if (field === pattern)
             					    {	
-            					        console.log('removeClass_byTime');
+            					        
             						    $('.minicart-wrapper').removeClass("orange");
             						    
             					    }
@@ -223,7 +214,7 @@ define([
                         $(document).ready(function(){
                             $(".desc-name").click(function() {
 								event.preventDefault();
-                                console.log('scroll');
+                               
                                 $('html, body').animate({
                                     scrollTop: $("#tab-label-product-description").offset().top
                                 }, 200);
