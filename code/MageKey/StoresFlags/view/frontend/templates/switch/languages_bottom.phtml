@@ -13,7 +13,7 @@ $_dataHelper = $this->helper(\MageKey\StoresFlags\Helper\Data::class);
                 <div class="debs-footer-bottom-container">
                     <div class="debs-footer-bottom">
                         <div class="country-container">
-                        	<span>We now deliver to 3 countries worldwide</span>
+                        	<span><?= $block->escapeHtml(__('We now deliver to 3 countries worldwide')) ?></span>
                         	<div class="country-details">
                             	
 								
@@ -36,7 +36,7 @@ $_dataHelper = $this->helper(\MageKey\StoresFlags\Helper\Data::class);
                 
                 
                 
-                <span class="country-change">(Change Country)</span>
+                <span class="country-change">(<?= $block->escapeHtml(__('Change Country')) ?>)</span>
             
                 
                 
