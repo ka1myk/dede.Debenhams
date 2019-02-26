@@ -1215,7 +1215,7 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 
 
 .cms-home .screen.screen-3 * {display: block; text-align: center}
-.cms-home .screen.screen-3 .img{background-repeat: no-repeat; height: 240px;background-size: cover}
+.cms-home .screen.screen-3 .img{background-repeat: no-repeat; height: 240px;background-size: cover; background-position: center}
 .cms-home .screen.screen-3 .flex-block{padding-bottom: 30px}
 .cms-home .screen.screen-3 .flex-block .txt p{margin: 5px 0; color: black}
 .cms-home .screen.screen-3 .flex-block .txt p:nth-child(1){font-size: 14px; font-weight: 700; margin-top: 10px}
@@ -1646,9 +1646,11 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	.cms-home .screen.screen-2 .flex-wrap {display: -webkit-box;display: -ms-flexbox;display: flex;display: -webkit-flex;}
 	.cms-home .screen.screen-2 .flex-wrap .flex-block{width: 50%; padding: 0 10px}
 	.cms-home .screen.screen-3 .img{height: 230px}
-	.cms-home .screen.screen-3 .main-wrap{width: auto; }
-	.cms-home .screen.screen-3 .flex-wrap{display: flex; flex-wrap: wrap;}
-	.cms-home .screen.screen-3 .flex-wrap .flex-block{width: 30%}
+	.cms-home .screen.screen-3 .main-wrap{width: auto;padding: 40px 20px 10px; }
+	.cms-home .screen.screen-3 .flex-wrap{display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;display: -webkit-flex; -webkit-flex-wrap: wrap;-webkit-justify-content: space-between}
+	.cms-home .screen.screen-3 .flex-wrap .flex-block{width: 33.3%; padding: 0 10px; box-sizing: border-box}
+	.cms-home .screen.screen-3 .coment{width: auto}
+
 }
 
 @media only screen and (min-width: 768px){
