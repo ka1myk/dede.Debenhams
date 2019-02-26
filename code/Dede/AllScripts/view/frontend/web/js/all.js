@@ -13,11 +13,6 @@ define([
     
                             //need to fix scroll of background when minicart is shown part 1
                           	$(document).ready(function() {
-                          	    
-                          	   
-                                $('value').not(this).addClass('notranslate');
-                                
-                          	    
                           	   
                           	    
                                 $(".showcart").click(function()
@@ -196,10 +191,12 @@ define([
                                 var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
                                 
                                 console.log(field);
-                                
+                               
+         
                                 if (field !== pattern)
             					    {	
             						    $('.minicart-wrapper').addClass("orange");
+            						    $('descript-cont').not($this).addClass('notranslate');
             						    console.log('addClass_byTime');
             					    }
             				
