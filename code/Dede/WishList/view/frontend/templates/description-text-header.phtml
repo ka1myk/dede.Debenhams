@@ -1,14 +1,14 @@
 <div id="tab-label-product-description"><?php echo sprintf(__('Product description') ) ?></div>
 <h3><?php echo sprintf(__('Choose description language') ) ?></h3>
-<div id="google_translate_element" style="width: 50px;"></div>
 <style>
 .goog-te-banner-frame.skiptranslate {
     display: none !important;
     } 
 body {
     top: 0px !important; 
-    }    
+    }
 </style>
+<div id="google_translate_element"></div>
 <script type="text/javascript" xml="space">
 (function() {
     var gtConstEvalStartTime = new Date();
@@ -81,4 +81,7 @@ body {
 </script>
 <script type="text/javascript" xml="space">
 function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'ru'}, 'google_translate_element');}
+</script>
+<script>
+$('value').not(this).addClass('notranslate');
 </script>
