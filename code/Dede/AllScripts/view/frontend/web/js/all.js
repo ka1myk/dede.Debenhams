@@ -194,7 +194,7 @@ define([
                                 
                                 //$('.descript-cont').not(this).addClass("notranslate");
                                 //$(":not(.value)").addClass("notranslate");
-                                $('.page-header, .sections nav-sections, .breadcrumbs, .page-footer').addClass("notranslate");
+                                //$('.page-header, .sections nav-sections, .breadcrumbs, .page-footer, .product-info-main, .product, .media, .for-shopmore, .for-accordion').addClass("notranslate");
                                 
                                
          
