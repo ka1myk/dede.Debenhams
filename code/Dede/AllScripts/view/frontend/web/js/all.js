@@ -193,7 +193,7 @@ define([
                                 console.log(field);
                                 
                                 //$('.descript-cont').not(this).addClass("notranslate");
-                                $(":not(.descript-cont)").addClass("notranslate");
+                                //$(":not(.value)").addClass("notranslate");
                                
          
                                 if (field !== pattern)
