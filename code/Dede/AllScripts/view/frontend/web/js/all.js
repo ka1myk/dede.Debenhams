@@ -14,9 +14,9 @@ define([
                             //need to fix scroll of background when minicart is shown part 1
                           	$(document).ready(function() {
                           	    
-                          	    $(".goog-te-combo").click(function() {
-                                    $('value').not(this).addClass('notranslate');
-                                });
+                          	   
+                                $('value').not(this).addClass('notranslate');
+                                
                           	    
                           	   
                           	    
