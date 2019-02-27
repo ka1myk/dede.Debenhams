@@ -12,11 +12,11 @@ define([
 	$(document).ready(function () {
 
         //check lang attr and add class to correct lang button and so on
-        if ( $('html').attr('lang') === 'ru' ) {
+        /*if ( $('html').attr('lang') === 'ru' ) {
             console.log("11111");
             $(".skiptranslate").addClass("ru-additional");
             
-        };
+        };*/
         
         
         /*if ( $('html').attr('lang') === 'en' ) {$('body').addClass('en-additional')};
