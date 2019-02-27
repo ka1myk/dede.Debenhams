@@ -12,9 +12,9 @@ define([
                           	$(document).ready(function() {
                           	   
                           	    $(":not('.value')").addClass("notranslate");
+                          	   
                           	    $('#google_translate_element').removeClass('notranslate');
                           	    $('.skiptranslate').removeClass('notranslate');
-                          	   
                           	    $('.goog-te-combo').removeClass('notranslate');
                           	    $('.btn-content').removeClass('notranslate');
                           	    $('.attribute').removeClass('notranslate');
@@ -22,10 +22,11 @@ define([
                           	    
                           	    
                           	    
+                          	    $('.column').removeClass('notranslate');
+                          	    $('.columns').removeClass('notranslate');
+                          	    $('.page-main').removeClass('notranslate');
                           	    
-                          	   
-                          	    
-                          	   
+                         
                           	    
                                 $(".showcart").click(function()
                                     {
