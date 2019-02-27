@@ -25,6 +25,12 @@ define([
                           	    $('.column').removeClass('notranslate');
                           	    $('.columns').removeClass('notranslate');
                           	    $('.page-main').removeClass('notranslate');
+                          	    $('#contentarea').removeClass('notranslate');
+                          	    $('ul').removeClass('notranslate');
+                          	    $('li').removeClass('notranslate');
+                          	    $('script').removeClass('notranslate');
+                          	    $('html').removeClass('notranslate');
+                          	  
                           	    
                          
                           	    
