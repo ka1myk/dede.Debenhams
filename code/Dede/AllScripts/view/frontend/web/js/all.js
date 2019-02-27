@@ -11,19 +11,12 @@ define([
 	//need to fix scroll of background when minicart is shown part 1
 	$(document).ready(function () {
 
-        //
-            var field = $('html').html();
-			var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
-			console.log(field);
-
-			if (field !== pattern) {
-				$('.minicart-wrapper').addClass("orange");
-			}
-
-			if (field === pattern) {
-				$('.minicart-wrapper').removeClass("orange");
-
-			}
+        //check lang attr and add class to correct lang button and so on
+        if ( $('html').attr('lang') == 'ru' ) {$('body').addClass('ru-additional')}
+        if ( $('html').attr('lang') == 'en' ) {$('body').addClass('en-additional')}
+        if ( $('html').attr('lang') == 'lv' ) {$('body').addClass('lv-additional')}
+        if ( $('html').attr('lang') == 'lt' ) {$('body').addClass('lt-additional')}
+        if ( $('html').attr('lang') == 'et' ) {$('body').addClass('et-additional')}
         //
 
 
