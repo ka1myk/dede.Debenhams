@@ -772,7 +772,7 @@ body.cms-home .product-item-info .photo.image{width: 100%}
 .customer-account-create .confirmation .label{width: 100%}
 .customer-account-create .form.create.account.form-create-account .actions-toolbar .primary{max-width: none; border-radius: 35px; text-align: center; width: 100%; margin: 0; padding-top: 20px}
 .customer-account-create .form.create.account.form-create-account .action.primary{max-width: none; box-shadow: none}
-.customer-account-create .form.create.account.form-create-account .actions-toolbar .primary .action span{font-weight: 400; font-size: 14px; text-align: center}
+
 .customer-account-create .form.create.account.form-create-account .actions-toolbar .primary .action span:after{content: none}
 .customer-account-create .input-text{border-radius: 3px}
 .customer-account-create .fieldset.create.account .field.required .control{width: 100%}
@@ -1241,6 +1241,15 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .cms-home .screen.screen-3 .coment p{color: black; font-style: normal; text-align: right; font-size: 13px}
 .cms-home .screen.screen-4{padding-top: 50px}
 .cms-home .screen.screen-4 a{text-align: center; font-size: 14px; color: black; text-decoration: underline; margin: auto; display: block}
+
+.customer-account-create .form.create.account.form-create-account .action.primary{float: none;display: block;margin-left: 0;background-color: #ee7206;height: 38px; box-sizing: border-box; padding: 10px;margin: auto}
+.customer-account-create .form.create.account.form-create-account .action.primary span{line-height: 0.6em; font-size: 18px; display: block;text-align: left; padding-left: 5px;position: relative}
+.customer-account-create .form.create.account.form-create-account .action.primary span:after{content: ''; height: 14px; width: 14px; background-image: url(../images/arrow.svg); background-repeat: no-repeat; display: block; position: absolute; right: 0; bottom: 0;top: 0; margin: auto;}
+.customer-account-create .form.create.account.form-create-account .actions-toolbar .primary .action span{font-weight: 400; font-size: 14px; text-align: center;width: 160px;margin: auto; position: relative}
+.customer-account-create .form.create.account.form-create-account .actions-toolbar .primary .action span:after{content:''; height: 14px; width: 8px; background-image: url(../images/arrow-on-create.svg); background-repeat: no-repeat;right: 0; bottom: 0; top: 0; margin: auto}
+
+
+
 
 @media only screen and (min-width: 370px){
 	.logo img{width:107px; height: auto}
@@ -2381,19 +2390,7 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .customer-account-create .fieldset > .legend{padding-bottom: 20px}
 .customer-account-create .action.submit.primary{}
 .customer-account-create .actions-toolbar .primary{float: none; width: 100%	}
-.customer-account-create .form.create.account.form-create-account .action.primary{float: none;display: block;
-    margin-left: 0;background-color: #EB712D;
-    -webkit-box-shadow: 0 3px 0 0 #BA490B;
-    box-shadow: 0 3px 0 0 #BA490B;border: none;width: 210px;
-    height: 38px;
-    box-sizing: border-box;
-    padding: 10px;margin: auto}
-.customer-account-create .form.create.account.form-create-account .action.primary span{line-height: 0.6em; font-size: 18px; display: block;    text-align: left;
-    padding-left: 5px;position: relative}
-.customer-account-create .form.create.account.form-create-account .action.primary span:after{content: ''; height: 14px; width: 14px; background-image: url(../images/arrow.svg); background-repeat: no-repeat; display: block; position: absolute;    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;}
+
 .customer-account-create .form.create.account.form-create-account{margin: auto}
 .customer-account-create .form.create.account.form-create-account .actions-toolbar .primery{width: 100%}
 .customer-account-create .action.primary{}
