@@ -12,11 +12,17 @@ define([
 	$(document).ready(function () {
 
         //check lang attr and add class to correct lang button and so on
-        if ( $('html').attr('lang') == 'ru' ) {$('body').addClass('ru-additional')}
-        if ( $('html').attr('lang') == 'en' ) {$('body').addClass('en-additional')}
-        if ( $('html').attr('lang') == 'lv' ) {$('body').addClass('lv-additional')}
-        if ( $('html').attr('lang') == 'lt' ) {$('body').addClass('lt-additional')}
-        if ( $('html').attr('lang') == 'et' ) {$('body').addClass('et-additional')}
+        if ( $('html').attr('lang') === 'ru' ) {
+            console.log("11111");
+            $('body').addClass("ru-additional");
+            
+        };
+        
+        
+        /*if ( $('html').attr('lang') === 'en' ) {$('body').addClass('en-additional')};
+        if ( $('html').attr('lang') === 'lv' ) {$('body').addClass('lv-additional')};
+        if ( $('html').attr('lang') === 'lt' ) {$('body').addClass('lt-additional')};
+        if ( $('html').attr('lang') === 'et' ) {$('body').addClass('et-additional')};*/
         //
 
 
