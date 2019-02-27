@@ -19,9 +19,6 @@ define([
                           	    $('.btn-content').removeClass('notranslate');
                           	    $('.attribute').removeClass('notranslate');
                           	    $('.for-desc').removeClass('notranslate');
-                          	    
-                          	    
-                          	    
                           	    $('.column').removeClass('notranslate');
                           	    $('.columns').removeClass('notranslate');
                           	    $('.page-main').removeClass('notranslate');
@@ -30,6 +27,11 @@ define([
                           	    $('li').removeClass('notranslate');
                           	    $('script').removeClass('notranslate');
                           	    $('html').removeClass('notranslate');
+                          	    $('head').removeClass('notranslate');
+                          	    $('.page-wrapper').removeClass('notranslate');
+                          	    $('.catalog-product-view').removeClass('notranslate');
+                          	    
+                          	    
                           	  
                           	    
                          
