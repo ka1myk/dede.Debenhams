@@ -24,6 +24,8 @@ define([
         if ( $('html').attr('lang') === 'lt' ) {$('body').addClass('lt-additional')};
         if ( $('html').attr('lang') === 'et' ) {$('body').addClass('et-additional')};*/
         //
+        
+        
 
 
 		//start google translate
@@ -344,6 +346,10 @@ define([
 	      */
 	/////
 	//stop custom.js
-
+	
+    if ($('strong').hasClass('view-RU')) {
+        console.log("111111");
+		$('.page-wrapper').addClass('ru-additional');
+	}
 
 });
