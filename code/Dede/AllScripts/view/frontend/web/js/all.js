@@ -14,7 +14,7 @@ define([
         //check lang attr and add class to correct lang button and so on
         if ( $('html').attr('lang') === 'ru' ) {
             console.log("11111");
-            $('body').addClass("ru-additional");
+            $(".skiptranslate").addClass("ru-additional");
             
         };
         
