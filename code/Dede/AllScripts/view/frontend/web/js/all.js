@@ -11,6 +11,22 @@ define([
 	//need to fix scroll of background when minicart is shown part 1
 	$(document).ready(function () {
 
+        //
+            var field = $('html').html();
+			var pattern = ("<!-- ko text: getCartParam('summary_count') -->0<!-- /ko -->");
+			console.log(field);
+
+			if (field !== pattern) {
+				$('.minicart-wrapper').addClass("orange");
+			}
+
+			if (field === pattern) {
+				$('.minicart-wrapper').removeClass("orange");
+
+			}
+        //
+
+
 		//start google translate
 		$(":not('.value')").addClass("notranslate");
 		$('#google_translate_element').removeClass('notranslate');
