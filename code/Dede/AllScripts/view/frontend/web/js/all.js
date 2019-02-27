@@ -11,8 +11,9 @@ define([
                             //need to fix scroll of background when minicart is shown part 1
                           	$(document).ready(function() {
                           	   
-                          	    $(":not('.value')").addClass("notranslate");
                           	   
+                          	    //start google translate
+                          	    $(":not('.value')").addClass("notranslate");
                           	    $('#google_translate_element').removeClass('notranslate');
                           	    $('.skiptranslate').removeClass('notranslate');
                           	    $('.goog-te-combo').removeClass('notranslate');
@@ -30,12 +31,9 @@ define([
                           	    $('head').removeClass('notranslate');
                           	    $('.page-wrapper').removeClass('notranslate');
                           	    $('.catalog-product-view').removeClass('notranslate');
+                          	    //end google translate
                           	    
-                          	    
-                          	  
-                          	    
-                         
-                          	    
+                                //to-do
                                 $(".showcart").click(function()
                                     {
 									if ($(window).width() < 1200){
