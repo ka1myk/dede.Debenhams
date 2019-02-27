@@ -12,17 +12,24 @@ define([
 	$(document).ready(function () {
 
         //check lang attr and add class to correct lang button and so on
-        /*if ( $('html').attr('lang') === 'ru' ) {
-            console.log("11111");
-            $(".skiptranslate").addClass("ru-additional");
-            
-        };*/
-        
-        
-        /*if ( $('html').attr('lang') === 'en' ) {$('body').addClass('en-additional')};
-        if ( $('html').attr('lang') === 'lv' ) {$('body').addClass('lv-additional')};
-        if ( $('html').attr('lang') === 'lt' ) {$('body').addClass('lt-additional')};
-        if ( $('html').attr('lang') === 'et' ) {$('body').addClass('et-additional')};*/
+        if ($('strong').hasClass('view-RU')) {
+	    	$('.page-wrapper').addClass('ru-additional');
+    	}
+    	if ($('strong').hasClass('view-EN')) {
+    		$('.page-wrapper').addClass('en-additional');
+    	}
+    	
+    	if ($('strong').hasClass('view-ET')) {
+    		$('.page-wrapper').addClass('et-additional');
+    	}
+    	
+    	if ($('strong').hasClass('view-LV')) {
+    		$('.page-wrapper').addClass('lv-additional');
+    	}
+    	
+    	if ($('strong').hasClass('view-LT')) {
+    		$('.page-wrapper').addClass('lt-additional');
+    	}
         //
         
         
@@ -347,9 +354,6 @@ define([
 	/////
 	//stop custom.js
 	
-    if ($('strong').hasClass('view-RU')) {
-        console.log("111111");
-		$('.page-wrapper').addClass('ru-additional');
-	}
+    
 
 });
