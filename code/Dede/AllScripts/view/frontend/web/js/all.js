@@ -274,6 +274,9 @@ define([
 		if ($('html').attr('lang','ru')){
 			$('.page-wrapper').addClass('russian');
 			}
+		if ($('html').attr('lang','en')){
+			$('.page-wrapper').addClass('english');
+			}
 		
 		
 		
