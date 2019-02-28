@@ -2900,7 +2900,6 @@
 "Save in address book","Сохранить в адресной книге",module,Magento_Checkout
 "Billing Address","Billing Address",module,Magento_Checkout
 "Estimated Total","Estimated Total",module,Magento_Checkout
-"You can create an account after checkout.","You can create an account after checkout.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","You already have an account with us. Sign in or continue as guest.",module,Magento_Checkout
 "Login","Логин",module,Magento_Checkout
 "See Details","Подробнее",module,Magento_Checkout
@@ -3677,7 +3676,6 @@
 "Company credit account will be charged:","Company credit account will be charged:",module,Magento_CompanyCredit
 "Place Order","Place Order",module,Magento_CompanyCredit
 "Cancel the Order","Cancel the Order",module,Magento_CompanyCredit
-"This is a required field.","This is a required field.",module,Magento_CompanyCredit
 "Please enter a valid number in this field.","Please enter a valid number in this field.",module,Magento_CompanyCredit
 "{oldCur}/{newCur} Rate","{oldCur}/{newCur} Rate",module,Magento_CompanyCredit
 "Reimburse","Reimburse",module,Magento_CompanyCredit
@@ -14384,3 +14382,5 @@ CONTINUE SHOPPING,Продолжить покупать
 "Cart Subtotal","Стоимость корзины"
 "Item in Cart","Товар-(ов) в корзине"
 "Shipping Method:","Способ доставки:"
+"You can create an account after checkout.","Вы можете создать учетную запись, после оформления заказа."
+"This is a required field.","Это обязательное поле."
