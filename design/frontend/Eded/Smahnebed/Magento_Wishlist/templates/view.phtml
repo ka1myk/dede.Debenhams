@@ -24,9 +24,9 @@
             <?= $block->getChildHtml('items') ?>
         <?php else: ?>
             <div class="empty-list-content registered-user">
-        <h3>You haven't saved anything yet!</h3>
+        <h3><?= $block->escapeHtml(__("You haven't saved anything yet!")) ?></h3>
         <div class="description">
-            <span>Save products by using the <span class="heart-icon"></span> while you shop.</span>
+            <span><?= $block->escapeHtml(__("Save products by using the ")) ?> <span class="heart-icon"></span><?= $block->escapeHtml(__(" while you shop.")) ?></span>
         </div>
     </div>
         <?php endif ?>
@@ -41,7 +41,7 @@
                     <span><?= $block->escapeHtml(__('Back')) ?></span>
                 </a>
             </div>
-			<div class="thrith"><a class="button-to-main" href="/"><span class="tablet-txt">Go shopping</span></a></div>
+			<div class="thrith"><a class="button-to-main" href="/"><span class="tablet-txt"><?= $block->escapeHtml(__("Go shopping")) ?></span></a></div>
         </div>
     </form>
     <script id="form-tmpl" type="text/x-magento-template">
