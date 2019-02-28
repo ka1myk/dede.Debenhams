@@ -270,7 +270,7 @@ define([
 		$('body').removeClass('mobile-ver');
 	}
 	////
-
+	
 
 	//				ЛИПУЧЕЕ МЕНЮ!!!
 
