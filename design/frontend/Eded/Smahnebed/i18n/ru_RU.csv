@@ -14325,7 +14325,7 @@ Address Book,Моя адресная книга
 My Account,Мои данные
 My orders, Мои заказы
 Saved Items,Мои сохраненные продукты
-You aren't subscribed to our newsletter., «Нет, пожалуйста, не присылайте мне маркетинговые коммуникации»
+"You aren't subscribed to our newsletter.","Нет, пожалуйста, не присылайте мне маркетинговые коммуникации"
 Newsletters,Настройки коммуникации
 Contact Information,Адрес эл. почты
 Change Password,Редактировать пароль и данные
@@ -14368,3 +14368,9 @@ CONTINUE SHOPPING,Продолжить покупать
 "I'd like to receive details of Debenhams new arrivals, offers & promotions via email","Я хотел бы получить подробную информацию о Debenhams новые поступления, предложения и акции по электронной почте"
 "Confirm Password","Подтверждение пароля"
 "You added %1 to your shopping cart.","%1 добавлены в вашу корзину."
+"Edit communication preferences","Изменить настройки связи"
+"If this is your first visit please start here","Если это ваш первый визит, пожалуйста, начните здесь
+"
+"Forgotten your password?","Забыли пароль?"
+"Register","Регистрация"
+"Communication preferences","Настройки связи"
