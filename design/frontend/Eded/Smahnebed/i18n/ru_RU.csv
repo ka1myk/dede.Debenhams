@@ -2889,7 +2889,6 @@
 "Total:","Всего:",module,Magento_Checkout
 "Billing Address:","Billing Address:",module,Magento_Checkout
 "Shipping Address:","Адрес доставки:",module,Magento_Checkout
-"Shipping Method:","Способ доставки:",module,Magento_Checkout
 "Payment Method:","Метод оплаты:",module,Magento_Checkout
 "Date & Time:","Дата и время:",module,Magento_Checkout
 "Sign In","Войти",module,Magento_Checkout
@@ -2917,7 +2916,6 @@
 "Ship Here","Доставить сюда",module,Magento_Checkout
 "Ship To:","Доставить:",module,Magento_Checkout
 "edit","изменить",module,Magento_Checkout
-"Order Summary","Order Summary",module,Magento_Checkout
 "View and Edit Cart","Просмотр и редактирование корзины",module,Magento_Checkout
 "View Details","Посмотреть детали",module,Magento_Checkout
 "Field","Поле",module,Magento_Checkout
@@ -7800,7 +7798,6 @@
 "The Quote expires after","The Quote expires after",module,Magento_NegotiableQuote
 "Item in Quote","Item in Quote",module,Magento_NegotiableQuote
 "Items in Quote","Items in Quote",module,Magento_NegotiableQuote
-"Apply Discount Code","Apply Discount Code",module,Magento_NegotiableQuote
 "Enter discount code","Enter discount code",module,Magento_NegotiableQuote
 "Apply Discount","Apply Discount",module,Magento_NegotiableQuote
 "Cancel coupon","Cancel coupon",module,Magento_NegotiableQuote
@@ -11245,7 +11242,6 @@
 "Some coupons are invalid.","Some coupons are invalid.",module,Magento_SalesRule
 "Item totals are not set for the rule.","Item totals are not set for the rule.",module,Magento_SalesRule
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 Cart Price Rules based on ""%2"" attribute have been disabled.",module,Magento_SalesRule
-"Apply Discount Code","Apply Discount Code",module,Magento_SalesRule
 "Enter discount code","Enter discount code",module,Magento_SalesRule
 "Apply Discount","Apply Discount",module,Magento_SalesRule
 "Cancel coupon","Cancel coupon",module,Magento_SalesRule
@@ -14382,3 +14378,9 @@ CONTINUE SHOPPING,Продолжить покупать
 "Apply Discount","Применить скидку"
 "Estimate Shipping and Tax","Расчёт доставки и налога"
 "Proceed to Checkout","Перейти к оформлению заказа"
+"Shipping Methods","Cпособы доставки"
+"Free","Бесплатно"
+"Order Summary","Сводка заказа"
+"Cart Subtotal","Стоимость корзины"
+"Item in Cart","Товар-(ов) в корзине"
+"Shipping Method:","Способ доставки:"
