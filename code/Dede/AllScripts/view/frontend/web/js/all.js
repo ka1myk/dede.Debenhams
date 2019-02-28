@@ -6,28 +6,28 @@ define([
 	'use strict';
 
 	//need to fix scroll of background when minicart is shown part 1
-//	$(document).ready(function () {
-//
-//        //check lang attr and add class to correct lang button and so on
-//        if ($('strong').hasClass('view-RU')) {
-//	    	$('.page-wrapper').addClass('ru-additional');
-//    	}
-//    	if ($('strong').hasClass('view-EN')) {
-//    		$('.page-wrapper').addClass('en-additional');
-//    	}
-//    	
-//    	if ($('strong').hasClass('view-ET')) {
-//    		$('.page-wrapper').addClass('et-additional');
-//    	}
-//    	
-//    	if ($('strong').hasClass('view-LV')) {
-//    		$('.page-wrapper').addClass('lv-additional');
-//    	}
-//    	
-//    	if ($('strong').hasClass('view-LT')) {
-//    		$('.page-wrapper').addClass('lt-additional');
-//    	}
-//        //
+	$(document).ready(function () {
+
+        //check lang attr and add class to correct lang button and so on
+        if ($('strong').hasClass('view-RU')) {
+	    	$('.page-wrapper').addClass('ru-additional');
+    	}
+    	if ($('strong').hasClass('view-EN')) {
+    		$('.page-wrapper').addClass('en-additional');
+    	}
+    	
+    	if ($('strong').hasClass('view-ET')) {
+    		$('.page-wrapper').addClass('et-additional');
+    	}
+    	
+    	if ($('strong').hasClass('view-LV')) {
+    		$('.page-wrapper').addClass('lv-additional');
+    	}
+    	
+    	if ($('strong').hasClass('view-LT')) {
+    		$('.page-wrapper').addClass('lt-additional');
+    	}
+        //
         
         
 
@@ -271,29 +271,13 @@ define([
 	}
 	////
 	$(document).ready(function(){
-		if ($('html').attr('lang','en')){
-			$('.page-wrapper').addClass('english');
-			} else {
-					if ($('html').attr('lang','ru')){
-						$('.page-wrapper').addClass('russian'); 
-						}
-				 else {
-						if ($('html').attr('lang','et')){
-							$('.page-wrapper').addClass('estonian');
-							} 
-					 else {
-							if ($('html').attr('lang','lv')){
-								$('.page-wrapper').addClass('latvian');
-								} 
-						 else {
-							if ($('html').attr('lang','lt')){
-								$('.page-wrapper').addClass('lithuanian');
-								}
-						 }
-					 }
-				 }
+		if ($('html').attr('lang','ru')){
+			$('.page-wrapper').addClass('russian');
 			}
-	
+		
+		
+		
+		
 	});
 
 	//				ЛИПУЧЕЕ МЕНЮ!!!
