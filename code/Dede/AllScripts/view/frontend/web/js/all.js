@@ -270,7 +270,7 @@ define([
 		$('body').removeClass('mobile-ver');
 	}
 	////
-	$(document).ready(function(){
+	$('html').load(function(){
 		if ($('html').attr('lang','ru')){
 			$('.page-wrapper').addClass('russian');
 			} 
