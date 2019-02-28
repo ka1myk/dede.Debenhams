@@ -2897,7 +2897,6 @@
 "Payment Method:","Метод оплаты:",module,Magento_Checkout
 "Date & Time:","Дата и время:",module,Magento_Checkout
 "Sign In","Войти",module,Magento_Checkout
-"Email Address","Адрес электронной почты",module,Magento_Checkout
 "Password","Пароль",module,Magento_Checkout
 "Forgot Your Password?","Забыли Ваш пароль?",module,Magento_Checkout
 "My billing and shipping address are the same","My billing and shipping address are the same",module,Magento_Checkout
@@ -4248,7 +4247,6 @@
 "Validate VAT Number","Проверте номер НДС",module,Magento_Customer
 "Customer Login","Авторизация пользователя",module,Magento_Customer
 "Create New Customer Account","Создать новую учетную запись клиента",module,Magento_Customer
-"Date of Birth","Дата рождения",module,Magento_Customer
 "Bad request.","Неверный запрос.",module,Magento_Customer
 "This confirmation key is invalid or has expired.","Этот ключ подтверждения недействителен или истек.",module,Magento_Customer
 "There was an error confirming the account","Там была ошибка подтверждение учетной записи",module,Magento_Customer
@@ -14374,3 +14372,6 @@ CONTINUE SHOPPING,Продолжить покупать
 "Forgotten your password?","Забыли пароль?"
 "Register","Регистрация"
 "Communication preferences","Настройки связи"
+"Date of Birth","Дата рождения"
+"Email Address","Адрес электронной почты"
+"You haven’t ordered anything yet!","Вы ещё ничего не заказали!"
