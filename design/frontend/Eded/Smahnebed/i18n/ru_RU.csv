@@ -7697,7 +7697,7 @@
 "Stock","Stock",module,Magento_NegotiableQuote
 "Cost","Cost",module,Magento_NegotiableQuote
 "Cart Price","Cart Price",module,Magento_NegotiableQuote
-"Qty","Qty",module,Magento_NegotiableQuote
+"Qty","Кол-во",module,Magento_NegotiableQuote
 "Subtotal","Subtotal",module,Magento_NegotiableQuote
 "Recalculate Quote","Recalculate Quote",module,Magento_NegotiableQuote
 "Update Prices","Update Prices",module,Magento_NegotiableQuote
@@ -8979,7 +8979,7 @@
 "Add to List","Add to List",module,Magento_QuickOrder
 "Order by SKU","Order by SKU",module,Magento_QuickOrder
 "Enter SKU or Product Name","Enter SKU or Product Name",module,Magento_QuickOrder
-"Qty","Qty",module,Magento_QuickOrder
+"Qty","Кол-во",module,Magento_QuickOrder
 "Add to Cart","Add to Cart",module,Magento_QuickOrder
 "Remove Row","Remove Row",module,Magento_QuickOrder
 "product(s) require(s) your attention.","product(s) require(s) your attention.",module,Magento_QuickOrder
@@ -9478,7 +9478,7 @@
 "Product Name","Product Name",module,Magento_RequisitionList
 "Item","Item",module,Magento_RequisitionList
 "Price","Price",module,Magento_RequisitionList
-"Qty","Qty",module,Magento_RequisitionList
+"Qty","Кол-во",module,Magento_RequisitionList
 "Subtotal","Subtotal",module,Magento_RequisitionList
 "Product","Product",module,Magento_RequisitionList
 "SKU","SKU",module,Magento_RequisitionList
