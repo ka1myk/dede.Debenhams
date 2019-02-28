@@ -5,9 +5,6 @@ define([
 ], function ($, mediaCheck) {
 	'use strict';
 
-	//start customs.js
-
-
 	//need to fix scroll of background when minicart is shown part 1
 	$(document).ready(function () {
 
@@ -107,16 +104,13 @@ define([
 
 
 	////////////accordion
-
 	$(document).ready(function () {
 		//прикрепляем клик по заголовкам .btn-name
 		$('.btn-name').on('click', f_acc);
 
 	});
 
-
 	function f_acc() {
-
 
 		//скрываем все кроме того, что должны открыть
 		if ($(window).width() < 740) {
@@ -185,7 +179,6 @@ define([
 		if (!$('.product.info.detailed').hasClass('empty-style')) {
 			$('#reviews .collapsible').text('Write a review');
 		}
-
 
 	});
 
@@ -353,7 +346,5 @@ define([
 	      */
 	/////
 	//stop custom.js
-	
-    
 
 });
