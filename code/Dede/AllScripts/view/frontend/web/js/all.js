@@ -273,10 +273,19 @@ define([
 	$(document).ready(function(){
 		if ($('html').attr('lang','ru')){
 			$('.page-wrapper').addClass('russian');
-			}
+			} 
 		if ($('html').attr('lang','en')){
 			$('.page-wrapper').addClass('english');
-			}
+			} 
+		if ($('html').attr('lang','lv')){
+			$('.page-wrapper').addClass('latvian');
+			} 
+		if ($('html').attr('lang','lt')){
+			$('.page-wrapper').addClass('lithuanian');
+			} 
+		if ($('html').attr('lang','et')){
+			$('.page-wrapper').addClass('estonian');
+			} 
 		
 		
 		
