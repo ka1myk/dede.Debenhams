@@ -3377,7 +3377,6 @@
 "City","Город",module,Magento_Company
 "Country","Страна",module,Magento_Company
 "State/Province","State/Province",module,Magento_Company
-"Please select a region, state or province.","Please select a region, state or province.",module,Magento_Company
 "ZIP/Postal Code","Почтовый индекс",module,Magento_Company
 "Phone Number","Номер телефона",module,Magento_Company
 "Company Administrator","Company Administrator",module,Magento_Company
@@ -4152,7 +4151,6 @@
 "You have not set a default billing address.","Вы не установили платежный адрес по умолчанию.",module,Magento_Customer
 "Address Book","Адресная книга",module,Magento_Customer
 "Edit Address","Изменить адрес",module,Magento_Customer
-"Add New Address","Добавить новый адрес",module,Magento_Customer
 "region","регион",module,Magento_Customer
 "Create Order","Создать заказ",module,Magento_Customer
 "Save Customer","Сохранить клиента",module,Magento_Customer
@@ -14376,4 +14374,7 @@ CONTINUE SHOPPING,Продолжить покупать
 "Email Address","Адрес электронной почты"
 "You haven’t ordered anything yet!","Вы ещё ничего не заказали!"
 "It’s time to browse through our amazing products. You can save them by using the <span></span> while you shop.","Пришло время просмотреть наши удивительные продукты. Вы можете сохранить их с помощью <span></span> во время покупки."
+"State/Province","Область"
 "Go shopping","Вперёд за покупками"
+"Please select a region, state or province.","Выберите регион"
+"Add New Address","Добавить новый адрес"
