@@ -121,7 +121,6 @@
 "You cannot configure a product.","Нельзя настроить продукт.",module,Magento_AdvancedCheckout
 "You removed the items.","Вы удалили элементы.",module,Magento_AdvancedCheckout
 "You removed the item.","Вы удалили элемент.",module,Magento_AdvancedCheckout
-"You added %1 to your shopping cart.","%1 добавлены в вашу корзину.",module,Magento_AdvancedCheckout
 "You cannot add a product.","Нельзя добавить продукт.",module,Magento_AdvancedCheckout
 "Order by SKU","Сортировать по SKU",module,Magento_AdvancedCheckout
 "The SKU was not found in the catalog.","Артикул не найден в каталоге.",module,Magento_AdvancedCheckout
@@ -14368,3 +14367,4 @@ CONTINUE SHOPPING,Продолжить покупать
 "To continue browsing and shopping please click on the Continue button below to return to your previous page or alternatively choose from the links at the top and bottom of the screen to access the key shopping and service areas of our website.","Для того, чтобы продолжить просмотр и покупки, пожалуйста, нажмите на кнопку Продолжить ниже, чтобы вернуться к предыдущей странице или в качестве альтернативы выбрать из ссылок в верхней и нижней части экрана, чтобы получить доступ к ключевым торговых и сервисных областях нашего сайта"
 "I'd like to receive details of Debenhams new arrivals, offers & promotions via email","Я хотел бы получить подробную информацию о Debenhams новые поступления, предложения и акции по электронной почте"
 "Confirm Password","Подтверждение пароля"
+"You added %1 to your shopping cart.","%1 добавлены в вашу корзину."
