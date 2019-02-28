@@ -4505,8 +4505,8 @@
 "Sign Up for Newsletter","Подписаться на новости",module,Magento_Customer
 "Address Information","Address Information",module,Magento_Customer
 "Sign-in Information","Sign-in Information",module,Magento_Customer
-"Confirm Password","Подтверждение пароля",module,Magento_Customer
-"Create an Account","Регистрироваться",module,Magento_Customer
+
+"Create an account","Регистрироваться"
 "Set a New Password","Введите новый пароль",module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","You have signed out and will go to our homepage in 5 seconds.",module,Magento_Customer
 "New Customers","Новый клиент",module,Magento_Customer
@@ -14366,3 +14366,5 @@ Go to my bag,Перейти в корзину
 The page you have selected is not available.,Выбранная страница недоступна.
 CONTINUE SHOPPING,Продолжить покупать
 "To continue browsing and shopping please click on the Continue button below to return to your previous page or alternatively choose from the links at the top and bottom of the screen to access the key shopping and service areas of our website.","Для того, чтобы продолжить просмотр и покупки, пожалуйста, нажмите на кнопку Продолжить ниже, чтобы вернуться к предыдущей странице или в качестве альтернативы выбрать из ссылок в верхней и нижней части экрана, чтобы получить доступ к ключевым торговых и сервисных областях нашего сайта"
+"I'd like to receive details of Debenhams new arrivals, offers & promotions via email","Я хотел бы получить подробную информацию о Debenhams новые поступления, предложения и акции по электронной почте"
+"Confirm Password","Подтверждение пароля"
