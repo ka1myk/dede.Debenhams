@@ -2853,9 +2853,6 @@
 "DB exception","DB exception",module,Magento_Checkout
 "Message","Послание",module,Magento_Checkout
 "Print receipt","Распечатать квитанцию",module,Magento_Checkout
-"Apply Discount Code","Применить код скидки",module,Magento_Checkout
-"Enter discount code","Введите код скидки",module,Magento_Checkout
-"Apply Discount","Применить скидку",module,Magento_Checkout
 "Cancel Coupon","Отменить купон",module,Magento_Checkout
 "Shopping Cart Items","Корзина покупок товаров",module,Magento_Checkout
 "Item","Элемент",module,Magento_Checkout
@@ -2874,7 +2871,6 @@
 "You have no items in your shopping cart.","You have no items in your shopping cart.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Click <a href=""%1"">here</a> to continue shopping.",module,Magento_Checkout
 "Estimate Tax","Estimate Tax",module,Magento_Checkout
-"Estimate Shipping and Tax","Estimate Shipping and Tax",module,Magento_Checkout
 "Excl. Tax","Без налога",module,Magento_Checkout
 "Loading...","Загрузка...",module,Magento_Checkout
 "Order #","Заказ #",module,Magento_Checkout
@@ -14379,3 +14375,10 @@ CONTINUE SHOPPING,Продолжить покупать
 "Go shopping","Вперёд за покупками"
 "Please select a region, state or province.","Выберите регион"
 "Add New Address","Добавить новый адрес"
+"Save products by using the ","Сохрайте продукты с помощью "
+"You haven't saved anything yet!","Вы ещё ничего не сохранили!"
+"Apply Discount Code","Применить код скидки"
+"Enter discount code","Введите код скидки"
+"Apply Discount","Применить скидку"
+"Estimate Shipping and Tax","Расчёт доставки и налога"
+"Proceed to Checkout","Перейти к оформлению заказа"
