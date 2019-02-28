@@ -16,10 +16,10 @@
 					<div class="img">
 						<div></div>
 					</div>
-					<span>Your bag is empty.</span>
-					<div class="question"><p>Why not treat yourself to a little something?</p></div>
-					<a class="button secondary-cta continue-shopping" title="Continue shopping" href="%1">
-						<span><strong>Continue shopping</strong></span>
+					<span><?= $block->escapeHtml(__('Your bag is empty.')) ?></span>
+					<div class="question"><p><?= $block->escapeHtml(__('Why not treat yourself to a little something?')) ?></p></div>
+					<a class="button secondary-cta continue-shopping" title="<?= $block->escapeHtml(__('Continue shopping')) ?>" href="%1">
+						<span><strong><?= $block->escapeHtml(__('Continue shopping')) ?></strong></span>
 					</a>
 				</div>
 			</div>
