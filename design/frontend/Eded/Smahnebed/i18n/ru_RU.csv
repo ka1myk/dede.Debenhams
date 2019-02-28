@@ -14078,7 +14078,7 @@
 "We can't specify a product.","We can't specify a product.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","We can't add the item to Wish List right now: %1.",module,Magento_Wishlist
 "We can't add the item to Wish List right now.","We can't add the item to Wish List right now.",module,Magento_Wishlist
-"You added %1 to your shopping cart.","%1 добавлены в вашу корзину.",module,Magento_Wishlist
+"You added %1 to your shopping cart.","%1 добавлены в вашу корзину."
 "This product(s) is out of stock.","Этого товара нет в наличии.",module,Magento_Wishlist
 "We can't add the item to the cart right now.","We can't add the item to the cart right now.",module,Magento_Wishlist
 "The Wish List item can't load at this time. Please try again later.","На данный момент не удается загрузить элемент списка пожеланий. Пожалуйста, повторите попытку позже.",module,Magento_Wishlist
@@ -14362,3 +14362,4 @@ Enter email address..,Введите Ваш email...
 Subscribe to our newsletter,Подпишитесь на нашу рассылку
 Receive the latest offers & promotions,Получайте свежие предложения и акции
 Choose description language,Выберите язык описания товара
+Go to my bag,Перейти в корзину
