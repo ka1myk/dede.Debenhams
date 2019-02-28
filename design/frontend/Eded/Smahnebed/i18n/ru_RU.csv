@@ -9434,7 +9434,7 @@
 "We can't specify a requisition list.","We can't specify a requisition list.",module,Magento_RequisitionList
 "You must choose options for your item.","You must choose options for your item.",module,Magento_RequisitionList
 "We can't specify a product.","We can't specify a product.",module,Magento_RequisitionList
-"You added %1 item(s) to your shopping cart.","You added %1 item(s) to your shopping cart.",module,Magento_RequisitionList
+"You added %1 item(s) to your shopping cart.","%1 добавлены в вашу корзину.",module,Magento_RequisitionList
 "Something went wrong.","Something went wrong.",module,Magento_RequisitionList
 "We can't configure the product right now.","We can't configure the product right now.",module,Magento_RequisitionList
 "%1 item(s) were copied to %2","%1 item(s) were copied to %2",module,Magento_RequisitionList
