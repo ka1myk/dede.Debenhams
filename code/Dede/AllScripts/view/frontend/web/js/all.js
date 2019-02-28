@@ -270,7 +270,15 @@ define([
 		$('body').removeClass('mobile-ver');
 	}
 	////
-
+	$(document).ready(function(){
+		if ($('html').attr('lang','ru')){
+			$('body').addClass('russian');
+			}
+		
+		
+		
+		
+	});
 
 	//				ЛИПУЧЕЕ МЕНЮ!!!
 
