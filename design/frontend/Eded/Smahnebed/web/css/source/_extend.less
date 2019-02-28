@@ -1264,7 +1264,8 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .customer-account-forgotpassword .field.email.required .label:after{content: none}
 .customer-account-forgotpassword .form.password.forget .fieldset:after{content: none}
 .customer-account-forgotpassword .actions-toolbar > .primary .action{height: 42px; border: none; background-color: #ee7206;border-radius: 35px }
-.customer-account-forgotpassword .actions-toolbar > .primary .action span{font-weight: 400; font-size: 16px}
+.customer-account-forgotpassword .actions-toolbar > .primary .action span{font-weight: 400; font-size: 16px; display: inline-block; position: relative}
+.customer-account-forgotpassword .actions-toolbar > .primary .action span:after{content:'';position: absolute;height: 20px; width: 18px; background-image: url(../images/arrow-on-create.svg); background-position: center; background-repeat: no-repeat;right: -20px; bottom: 0; top: 0; margin: auto; display: block}
 .customer-account-forgotpassword .columns .column.main{padding-bottom: 20px}
 .customer-account-forgotpassword .fieldset{margin: 0}
 .customer-account-forgotpassword .actions-toolbar > .primary{margin-top: 20px}
@@ -1748,6 +1749,9 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	.customer-account-create .actions-toolbar .primary, .customer-account-create .actions-toolbar .secondary{display: block}
 	.customer-account-login.page-layout-1column .page-main .widget.block.block-static-block{padding-bottom: 30px}
 	.customer-account-login.page-layout-1column .block.block-new-customer{width: 46%}
+	
+	.customer-account-forgotpassword .actions-toolbar > .primary .action span:after{right: -20px}
+		.customer-account-forgotpassword .page-title-wrapper{text-align: center}
 }
 
 @media only screen and (min-width: 900px){
@@ -2392,7 +2396,7 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	
 	
 	.customer-account-forgotpassword .page-title-wrapper h1 span{font-size: 46px;}
-	.customer-account-forgotpassword .page-title-wrapper{text-align: center}
+
 	.customer-account-forgotpassword .page-main{background: none; background-color:#eee }
 	.customer-account-forgotpassword .form.password.forget{-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);border: none; background-color:white;}
 	
