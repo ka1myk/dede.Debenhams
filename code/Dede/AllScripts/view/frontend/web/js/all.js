@@ -16,8 +16,8 @@ define([
     		$('.page-wrapper').addClass('en-additional');
     	}
     	
-    	if ($('strong').hasClass('view-ET')) {
-    		$('.page-wrapper').addClass('et-additional');
+    	if ($('strong').hasClass('view-EST')) {
+    		$('.page-wrapper').addClass('est-additional');
     	}
     	
     	if ($('strong').hasClass('view-LV')) {
