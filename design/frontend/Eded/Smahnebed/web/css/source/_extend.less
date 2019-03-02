@@ -1306,9 +1306,11 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 .custom.link.wishlist .wishlist-custom .save-for-later-bt{overflow: hidden}
 .catalog-product-view.page-layout-1column .widget.block.block-static-block .shop-more-container .shop-more-links .breadcrumbs .items .item{margin-bottom: 10px}
 
-.google-translate h3{display: block; padding: 12px 0 5px}
+.google-translate{box-sizing: border-box; margin: 10px; padding: 10px 20px; -webkit-box-shadow: 0 0 10px 0 rgba(193,193,193,0.68);box-shadow: 0 0 10px 0 rgba(193,193,193,0.68)}
+.google-translate h3{display: block; padding: 12px 0 5px; text-align: center}
 .google-translate .goog-te-combo:focus{box-shadow: none; border: 1px solid #00b39e; box-sizing: border-box}
-.google-translate .goog-te-combo{font-family: 'Lato','Arial'; font-size: 12px; -webkit-box-shadow: inset 0 0 2px 1px #dadadadb;box-shadow: inset 0 0 2px 1px #dadadadb; border: none;border-radius: 3px;box-sizing: border-box }
+.google-translate .goog-te-combo:not(:focus){border: none}
+.google-translate .goog-te-combo{font-family: 'Lato','Arial'; font-size: 12px; -webkit-box-shadow: inset 0 0 2px 1px #dadadadb;box-shadow: inset 0 0 2px 1px #dadadadb; border: none;border-radius: 3px;box-sizing: border-box; font-weight: 300px }
 
 @media only screen and (min-width: 370px){
 	.logo img{width:107px; height: auto}
