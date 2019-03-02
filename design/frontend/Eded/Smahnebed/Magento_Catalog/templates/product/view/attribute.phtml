@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Copyright © Magento, Inc. All rights reserved.
@@ -12,6 +13,7 @@
  * @see \Magento\Catalog\Block\Product\View\Description
  */
 ?>
+
 <?php
 $_helper = $this->helper('Magento\Catalog\Helper\Output');
 $_product = $block->getProduct();
@@ -37,6 +39,7 @@ if ($_attributeType && $_attributeType == 'text') {
     $_attributeValue = $_helper->productAttribute($_product, $_product->$_call(), $_code);
 }
 ?>
+
 <?php if ($_attributeValue): ?>
 <div class="product attribute <?= /* @escapeNotVerified */ $_className ?>">
     <?php if ($renderLabel): ?><strong class="type"><?= /* @escapeNotVerified */ $_attributeLabel ?></strong><?php endif; ?>
