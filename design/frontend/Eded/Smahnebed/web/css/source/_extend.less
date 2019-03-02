@@ -1345,9 +1345,14 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	.cms-home .banner-wrap .banner{height: 460px}
 	.cms-home .screen.screen-2 .img-wrap{height: 700px;}
 	.cms-home .screen.screen-3 .img-wrap{height: 450px}
+	.account.wishlist-index-index .products-grid .product-item-info:not(:hover):not(.active) .product-item-inner{height: auto; box-shadow: none}
+	
 }
 
-
+@media only screen and (min-width: 600px){
+	.products-grid .product-item-info:hover, .products-grid .product-item-info.active{box-shadow: none}
+	.wishlist-index-index .product-item-inner{border: none}
+}
 
 @media only screen and (min-width: 740px){
 	.logo{height: 25px}
@@ -2468,6 +2473,7 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 	
 	
 	.account.wishlist-index-index .minicart-wrapper .action.showcart .counter.qty{left: 10px}
+	
 	
 	
 }
