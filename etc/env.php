@@ -51,7 +51,7 @@ return [
         'default' => [
             'dev' => [
                 'debug' => [
-                    'debug_logging' => '0'
+                    'debug_logging' => NULL
                 ]
             ]
         ]
