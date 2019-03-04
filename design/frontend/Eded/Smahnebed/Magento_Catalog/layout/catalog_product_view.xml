@@ -70,8 +70,8 @@
         <move element="afcAztbJSGPTf1CKLQbTtDKUR5ubPLsE" 			destination="btn-name"/>				                <!-- Product description -->
         
         
-        <move element="FRrJRs3temBRxRc4pxBP6gIRoWst78RB" 			destination="btn-content" before="-"/>			                <!-- google translate block -->
-        <move element="product.info.sku" 							destination="btn-content" after="FRrJRs3temBRxRc4pxBP6gIRoWst78RB"/>	                <!-- sku -->
+        <move element="7lIsKGepXU4sZIlzLWFUOJaEX2cQ12mE" 			destination="btn-content" before="-"/>			                <!-- google translate block -->
+        <move element="product.info.sku" 							destination="btn-content" after="7lIsKGepXU4sZIlzLWFUOJaEX2cQ12mE"/>	                <!-- sku -->
         <move element="product.info.description"					destination="btn-content" after="product.info.sku"/>	<!-- description  --> 
         <move element="product.info.overview"						destination="btn-content" after="-"/>					<!-- dots --> 
         
