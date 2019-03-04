@@ -70,8 +70,8 @@
         <move element="afcAztbJSGPTf1CKLQbTtDKUR5ubPLsE" 			destination="btn-name"/>				                <!-- Product description -->
         
         
-          <!-- google translate block -->
-        <move element="product.info.sku" 							destination="btn-content" before="-"/>	                <!-- sku -->
+        <move element="7lIsKGepXU4sZIlzLWFUOJaEX2cQ12mE" 			destination="btn-content" before="-"/>       <!-- google translate block -->
+        <move element="product.info.sku" 							destination="btn-content" before="product.info.description"/>	                <!-- sku -->
         <move element="product.info.description"					destination="btn-content" after="product.info.sku"/>	<!-- description  --> 
         <move element="product.info.overview"						destination="btn-content" after="-"/>					<!-- dots --> 
         
