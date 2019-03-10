@@ -129,16 +129,10 @@ define([
 	
 
 			$(document).ready(function() {
-			$(".filter-options-title").click(function() {
-			if($(this).next("dd").is(":visible")){
-			$(this).next("dd").slideUp("slow");
-			} else {
-			$(".filter-options-content").slideUp("slow");
-			$(this).next("dd").slideToggle("slow");
-			}
+			$(".filter-options-title").on('click',function() {
+			alert('YEA!!!');
 			});
 			});
-	
 	
 	// открываем или скрываем блок под заголовком, по которому кликнули
 
