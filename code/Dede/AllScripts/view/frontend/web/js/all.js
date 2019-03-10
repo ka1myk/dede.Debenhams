@@ -136,7 +136,12 @@ define([
 	//								
 	//								
 	//							});
-
+	$(document).ready(function(){
+		$('.filter-options-title').on('click',function(){
+						$('.filter-options-content').toggleClass('.view-content');			  
+									  
+	});
+	});
 
 	$(document).ready(function () {
 		var noEmptRev = $('.action.view span').length;
