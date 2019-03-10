@@ -127,17 +127,17 @@ define([
 	}
 	
 	
-	function(i) {
-      var o, n;
-      i(".filter-options-title").on("click", function() {
-		  alert('Hello!');
-        o = i(this).parents(".filter-content"), n = o.find(".filter-options-content"),
-          o.hasClass("active_block") ? (o.removeClass("active_block"),
-            n.slideUp()) : (o.addClass("active_block"), n.stop(!0, !0).slideDown(),
-            o.siblings(".active_block").removeClass("active_block").children(
-              ".filter-options-content").stop(!0, !0).slideUp())
-      });
-    };
+
+			$(document).ready(function() {
+			$(".filter-options-title").click(function() {
+			if($(this).next("dd").is(":visible")){
+			$(this).next("dd").slideUp("slow");
+			} else {
+			$(".filter-options-content").slideUp("slow");
+			$(this).next("dd").slideToggle("slow");
+			}
+			});
+			});
 	
 	
 	// открываем или скрываем блок под заголовком, по которому кликнули
