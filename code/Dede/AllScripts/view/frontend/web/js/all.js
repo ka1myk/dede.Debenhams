@@ -127,25 +127,17 @@ define([
 	}
 	
 	
-	$(document).ready(function () {
-		//прикрепляем клик по заголовкам .btn-name
-		$('.btn-name').on('click', filtr_my);
-
-	});
-
-	function filtr_my() {
-
-		//скрываем все кроме того, что должны открыть
-	
-			$('.filter-options-title').not(this).removeClass('minus-icon');
-			$(this).toggleClass('minus-icon');
-			$('.filter-options-content').not($(this).next()).slideUp(300);
-			$(this).next().slideToggle(500);
-	
-
-
-	}
-	
+	function(i) {
+      var o, n;
+      i(".filter-options-title").on("click", function() {
+		  alert('Hello!');
+        o = i(this).parents(".filter-content"), n = o.find(".filter-options-content"),
+          o.hasClass("active_block") ? (o.removeClass("active_block"),
+            n.slideUp()) : (o.addClass("active_block"), n.stop(!0, !0).slideDown(),
+            o.siblings(".active_block").removeClass("active_block").children(
+              ".filter-options-content").stop(!0, !0).slideUp())
+      });
+    };
 	
 	
 	// открываем или скрываем блок под заголовком, по которому кликнули
