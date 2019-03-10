@@ -125,6 +125,29 @@ define([
 
 
 	}
+	
+	
+	$(document).ready(function () {
+		//прикрепляем клик по заголовкам .btn-name
+		$('.btn-name').on('click', filtr_my);
+
+	});
+
+	function filtr_my() {
+
+		//скрываем все кроме того, что должны открыть
+	
+			$('.filter-options-title').not(this).removeClass('minus-icon');
+			$(this).toggleClass('minus-icon');
+			$('.filter-options-content').not($(this).next()).slideUp(300);
+			$(this).next().slideToggle(500);
+	
+
+
+	}
+	
+	
+	
 	// открываем или скрываем блок под заголовком, по которому кликнули
 
 
@@ -136,12 +159,11 @@ define([
 	//								
 	//								
 	//							});
-	$(document).ready(function(){
-		$('.filter-options-title').on('click',function(){
-						$('.filter-options-content').toggleClass('.view-content');			  
-									  
-	});
-	});
+
+	
+	
+	
+	
 
 	$(document).ready(function () {
 		var noEmptRev = $('.action.view span').length;
