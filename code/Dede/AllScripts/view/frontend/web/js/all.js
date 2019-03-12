@@ -133,7 +133,6 @@ define([
 	});
 	
 	function g_acc() {
-		alert("Hello!");
 		//скрываем все кроме того, что должны открыть
 		if ($(window).width() > 100) {
 			$('.filter-options-title').not(this).removeClass('minus-icon');
