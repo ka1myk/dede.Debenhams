@@ -150,22 +150,13 @@ define([
 
 	$(document).ready(function () {
 		//прикрепляем клик по заголовкам .btn-name
-		$('.block-title.filter-title').on('click', filter_acc);
+		$('#f-main-button').on('click', filter_acc);
 
 	});
 	
 	function filter_acc() {
 		alert("Hello!");
-		//скрываем все кроме того, что должны открыть
-		if ($(window).width() > 100) {
-			$('.filter-options-title').not(this).removeClass('minus-icon');
-			$(this).toggleClass('minus-icon');
-			$('.filter-options-content').not($(this).next()).slideUp(300);
-			$(this).next().slideToggle(500);
-		} else {
-			$('.filter-options-content').not($(this).next()).stop(true, true);
-			$(this).next().stop(true, true);
-		}
+		
 		
 			
 
