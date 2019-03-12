@@ -155,7 +155,7 @@ define([
 	});
 	
 	function filter_acc() {
-		if ($(window).width() > 100) {
+		if ($(window).width() < 768) {
 			$('#f-main-button').not(this).removeClass('minus-icon');
 			$(this).toggleClass('minus-icon');
 			$('.filter-content').not($(this).next()).slideUp(300);
