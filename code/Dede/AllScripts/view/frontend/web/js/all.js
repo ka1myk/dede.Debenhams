@@ -155,11 +155,15 @@ define([
 	});
 	
 	function filter_acc() {
-		alert("Hello!");
-		
-		
-			
-
+		if ($(window).width() > 100) {
+			$('#f-main-button').not(this).removeClass('minus-icon');
+			$(this).toggleClass('minus-icon');
+			$('.filter-content').not($(this).next()).slideUp(300);
+			$(this).next().slideToggle(500);
+		} else {
+			$('.filter-content').not($(this).next()).stop(true, true);
+			$(this).next().stop(true, true);
+		}
 	}
 
 	
