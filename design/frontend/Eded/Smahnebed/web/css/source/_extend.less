@@ -1339,7 +1339,10 @@ input:not([disabled]):focus{box-shadow: none; border: 1px solid #00b39e}
 
 .filter-title strong{position: relative; top: auto; left: auto; width: 100%; height: 100%; box-sizing: border-box; line-height: 33px; background-color: white; box-shadow: none; display: inline; padding: 0; border: none;padding-right: 10px }
 .filter-title strong:after{content: '';position: absolute; width: 10px; height: 10px; display: block; background-image: url(../images/filter.svg);background-repeat: no-repeat; background-position: center; top: 3px; bottom: 0; right: -10px; margin: auto}
-.page-with-filter .block-title.filter-title{height: 33px; display: block; text-align: center; line-height: 30px; border:1px solid black }
+.page-with-filter .block-title.filter-title{height: 33px; display: block; text-align: center; line-height: 30px; border:1px solid black ; border-radius: 35px}
+.page-with-filter .block-title.filter-title.minus-icon{border-radius: 0; background-color: black;}
+.page-with-filter .block-title.filter-title.minus-icon strong{color: white}
+.page-with-filter .block-title.filter-title.minus-icon strong:after{background-image: url(../filter-2.svg)}
 
 .filter-options-title:after{content: ''; background-image: url(../images/cross.svg); background-repeat: no-repeat;width: 13px; height: 13px; top: 0; bottom: 0; margin: auto; background-position: center}
 .filter-options-title.minus-icon:after{background-image: url(../images/minus.svg);}
