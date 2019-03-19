@@ -203,7 +203,7 @@ define([
                 var item = {
                     menu_item_id: this._getMaxMenuItemId() + 1,
                     menu_item_parent_id: 0,
-                    name: 'Menu Item',
+                    name: formBuilder().encodeContent('name', defaultMenuItemLabel),
                     classname: 'new'
                 };
             }
@@ -246,7 +246,7 @@ define([
                 $nameElement = $element.find('.form').find('.menu_item_' + $element.data('id') + '_name');
                 menuItemNameValue = $nameElement.val();
                 menuItemNameValue = JSON.parse(menuItemNameValue);
-                menuItemName = menuItemNameValue.value;
+                menuItemName = formBuilder().decodeContent('name', menuItemNameValue.value);
             }
 
             menuDialog().openDialog(this.options.editUrl + additionalParams, menuItemName);

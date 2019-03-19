@@ -15,9 +15,7 @@ define([
             var self = this;
 
             if (!$('html').hasClass('mx-megamenu-init')) {
-                
                 $('html').addClass('mx-megamenu-init');
-                
 
                 this.element.data('mage-menu', 1); // Add mageMenu attribute to fix breadcrumbs rendering on product page
 
@@ -30,12 +28,9 @@ define([
 
                         setTimeout(function () {
                             $('html').removeClass('nav-before-open');
-                            
                         }, 300);
                     } else {
                         $('html').addClass('nav-before-open');
-                        
-                
 
                         setTimeout(function () {
                             $('html').addClass('nav-open');
@@ -43,6 +38,8 @@ define([
                     }
                 });
             }
+
+            this._adjustSubMenuItems();
 
             // Add class for nav-anchor where the link has href
             this.element.find('.mx-megamenu__item .mx-megamenu__link').each(function(i, item) {
@@ -56,7 +53,7 @@ define([
             var self = this;
 
             mediaCheck({
-                media: '(min-width: 1024px)',
+                media: '(min-width: 1025px)',
 
                 /**
                  * Switch to Desktop Version.
@@ -65,10 +62,8 @@ define([
                     self.element.find('.level-top').hover(function() {
                         self.element.find('.level-top').removeClass('current');
                         $(this).addClass('current');
-                        $('.page-wrapper').addClass('dark-back');
                     }, function() {
                         $(this).removeClass('current');
-                        $('.page-wrapper').removeClass('dark-back');
                     });
 
                     /**
@@ -123,10 +118,24 @@ define([
                             }
 
                             $item.toggleClass('current');
-                            
                         }
                     });
                 }
+            });
+        },
+
+        // Adjust sub menu items where wrapper is defined
+        _adjustSubMenuItems: function() {
+            var $parent,
+                $subMenu;
+
+            $('.mx-megamenu__submenu.wrapper').each(function(wrapperIndex, wrapperItem) {
+                $subMenu = $(this);
+                $parent = $subMenu.parent();
+
+                $parent.find('.mx-megamenu__item').each(function(i, item) {
+                  $subMenu.append($(item));
+                });
             });
         },
 
@@ -150,11 +159,5 @@ define([
         }
     });
 
-
-
-
     return $.mx.megaMenu;
-    
-    
-    
 });

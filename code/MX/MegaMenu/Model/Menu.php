@@ -3,6 +3,7 @@
 namespace MX\MegaMenu\Model;
 
 use MX\MegaMenu\Model\Menu\ItemFactory as MenuItemFactory;
+use MX\MegaMenu\Model\Menu\Item;
 use MX\MegaMenu\Api\Data\MenuInterface;
 use MX\MegaMenu\Model\ResourceModel\Menu as ResourceMenu;
 use Magento\Framework\Model\AbstractModel;
@@ -339,7 +340,6 @@ class Menu extends AbstractModel implements MenuInterface, IdentityInterface
     public function getProcessedMenuItems()
     {
         $result = [];
-
         foreach ($this->getSortedMenuItems() as $item) {
             $itemId = $item['menu_item_id'];
             $parentId = $item['menu_item_parent_id'];
@@ -352,9 +352,11 @@ class Menu extends AbstractModel implements MenuInterface, IdentityInterface
             } else {
                 // 2nd level (1st child)
                 if (isset($result[$parentId])) {
+                    $menuItemData['level'] = Item::LEVEL_2;
                     $result[$parentId]['children'][$itemId] = $menuItemData;
                 } else {
                     // 3rd level (2nd child)
+                    $menuItemData['level'] = Item::LEVEL_3;
                     $this->setChildrenItems($result, $item, $menuItemData);
                 }
             }
@@ -373,12 +375,14 @@ class Menu extends AbstractModel implements MenuInterface, IdentityInterface
     protected function setChildrenItems(&$result, $item, $menuItemData)
     {
         $parentId = $item['menu_item_parent_id'];
+        $itemId = $item['menu_item_id'];
 
         foreach ($result as $id => $child) {
             if (isset($child['children'])) {
                 foreach ($child['children'] as $i => $ch) {
                     if ($i == $parentId) {
-                        $result[$id]['children'][]['children'][] = $menuItemData;
+                        $result[$id]['children'][$i]['wrapper'] = true; // Add wrapper for 3rd level items
+                        $result[$id]['children'][$i]['children'][$itemId] = $menuItemData;
                     }
                 }
             }

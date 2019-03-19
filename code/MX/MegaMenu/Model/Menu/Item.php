@@ -22,6 +22,10 @@ class Item extends AbstractModel
 
     const OFFSET_CATEGORY_ID = 1;
 
+    const LEVEL_DEFAULT = 0;
+    const LEVEL_2 = 1;
+    const LEVEL_3 = 2;
+
     const CONTENT_TYPE_CATEGORY = 'category';
     const CONTENT_TYPE_CONTENT = 'wysiwyg';
 
@@ -63,7 +67,7 @@ class Item extends AbstractModel
     {
         return [
             'status' => $this->isEnabled($item, 'status'),
-            'name' => $item['name'],
+            'name' => $this->getDecodedContent($item['name']),
             'link' => $this->getItemLink($item),
             'header_status' => $this->isEnabled($item, 'header_status'),
             'header_content' => $this->getDecodedContent($item['header_content']),
@@ -78,7 +82,8 @@ class Item extends AbstractModel
             'leftside_status' => $this->isEnabled($item, 'leftside_status'),
             'leftside_content' => $this->getDecodedContent($item['leftside_content']),
             'rightside_status' => $this->isEnabled($item, 'rightside_status'),
-            'rightside_content' => $this->getDecodedContent($item['rightside_content'])
+            'rightside_content' => $this->getDecodedContent($item['rightside_content']),
+            'level' => self::LEVEL_DEFAULT
         ];
     }
 
@@ -90,7 +95,8 @@ class Item extends AbstractModel
      */
     public function needEncode($name)
     {
-        return strpos($name, '_content') !== false || strpos($name, 'link') !== false;
+        return strpos($name, '_content') !== false || strpos($name, 'link') !== false
+            || $name === 'name';
     }
 
     /**
