@@ -14,6 +14,7 @@ return [
         'Magento_AdminNotification' => 1,
         'Magento_Indexer' => 1,
         'MSP_ReCaptcha' => 1,
+        'MX_MegaMenu' => 1,
         'MageKey_StoresFlags' => 1,
         'Magento_Email' => 1,
         'MageWorx_AlsoBought' => 1,
