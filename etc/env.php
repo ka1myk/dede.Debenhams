@@ -42,7 +42,8 @@ return [
         'full_page' => 1,
         'config_webservice' => 1,
         'translate' => 1,
-        'compiled_config' => 1
+        'compiled_config' => 1,
+        'vertex' => 1
     ],
     'install' => [
         'date' => 'Thu, 10 Jan 2019 18:20:17 +0000'
