@@ -142,7 +142,7 @@ return [
         'ManishJoy_AjaxCart' => 1,
         'Markup_Smartship' => 1,
         'Paysera_Magento2Paysera' => 1,
-        'STech_Preloader' => 1,
+        'STech_Preloader' => 0,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'WeltPixel_Backend' => 1,
