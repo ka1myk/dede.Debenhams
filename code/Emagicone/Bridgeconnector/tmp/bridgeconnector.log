@@ -1,0 +1,512 @@
+[Sun, 24 Mar 2019 18:08:48 +0000]Initializing
+[Sun, 24 Mar 2019 18:08:48 +0000]Creating backup file
+[Sun, 24 Mar 2019 18:08:48 +0000]Selecting tables
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `admin_passwords` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `admin_passwords` LIMIT 0, 8388609
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `admin_system_messages` [2].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `admin_system_messages` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `admin_user` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `admin_user` LIMIT 0, 8388609
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `admin_user_session` [1].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `admin_user_session` LIMIT 0, 513
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `adminnotification_inbox` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `adminnotification_inbox` LIMIT 0, 8388609
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `authorization_role` [4].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `authorization_role` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `authorization_rule` [223].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `authorization_rule` LIMIT 0, 113361
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `bridgeconnector_failed_login` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `bridgeconnector_session_keys` [1].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `bridgeconnector_session_keys` LIMIT 0, 513
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_entity` [977].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_entity` LIMIT 0, 83057
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_entity_datetime` [2].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_entity_datetime` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_entity_decimal` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_entity_int` [2 869].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_entity_int` LIMIT 0, 161320
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_entity_text` [4].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_entity_text` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_entity_varchar` [2 865].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_entity_varchar` LIMIT 0, 121575
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_flat_cl` [33].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_flat_cl` LIMIT 0, 16879
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_flat_store_1` [989].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_flat_store_1` LIMIT 0, 42155
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_flat_store_2` [989].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_flat_store_2` LIMIT 0, 42155
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_flat_store_3` [989].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_flat_store_3` LIMIT 0, 42155
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_flat_store_4` [989].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_flat_store_4` LIMIT 0, 42155
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_flat_store_5` [989].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_flat_store_5` LIMIT 0, 42155
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product` [22 868].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product` LIMIT 0, 119838
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_cl` [9].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_cl` LIMIT 0, 4608
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_replica` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store1` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store1` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store1_replica` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store1_replica` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store2` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store2` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store2_replica` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store2_replica` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store3` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store3` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store3_replica` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store3_replica` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store4` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store4` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store4_replica` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store4_replica` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store5` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store5` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_store5_replica` [2 335].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_category_product_index_store5_replica` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_category_product_index_tmp` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_compare_item` [0].
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_eav_attribute` [94].
+[Sun, 24 Mar 2019 18:08:48 +0000]-SELECT * FROM `catalog_eav_attribute` LIMIT 0, 47936
+[Sun, 24 Mar 2019 18:08:48 +0000]Handling table `catalog_product_attribute_cl` [222 897].
+[Sun, 24 Mar 2019 18:08:49 +0000]-SELECT * FROM `catalog_product_attribute_cl` LIMIT 0, 270601
+[Sun, 24 Mar 2019 18:08:50 +0000]Handling table `catalog_product_bundle_option` [0].
+[Sun, 24 Mar 2019 18:08:50 +0000]Handling table `catalog_product_bundle_option_value` [0].
+[Sun, 24 Mar 2019 18:08:50 +0000]Handling table `catalog_product_bundle_price_index` [0].
+[Sun, 24 Mar 2019 18:08:50 +0000]Handling table `catalog_product_bundle_selection` [0].
+[Sun, 24 Mar 2019 18:08:50 +0000]Handling table `catalog_product_bundle_selection_price` [0].
+[Sun, 24 Mar 2019 18:08:50 +0000]Handling table `catalog_product_bundle_stock_index` [0].
+[Sun, 24 Mar 2019 18:08:50 +0000]Handling table `catalog_product_category_cl` [1 646 802].
+[Sun, 24 Mar 2019 18:08:50 +0000]-SELECT * FROM `catalog_product_category_cl` LIMIT 0, 279621
+[Sun, 24 Mar 2019 18:08:52 +0000]-SELECT * FROM catalog_product_category_cl LIMIT 279621, 279621
+[Sun, 24 Mar 2019 18:08:53 +0000]-SELECT * FROM catalog_product_category_cl LIMIT 559242, 279621
+[Sun, 24 Mar 2019 18:08:55 +0000]-SELECT * FROM catalog_product_category_cl LIMIT 838863, 279621
+[Sun, 24 Mar 2019 18:08:57 +0000]-SELECT * FROM catalog_product_category_cl LIMIT 1118484, 279621
+[Sun, 24 Mar 2019 18:08:59 +0000]-SELECT * FROM catalog_product_category_cl LIMIT 1398105, 279621
+[Sun, 24 Mar 2019 18:09:00 +0000]Handling table `catalog_product_entity` [20 203].
+[Sun, 24 Mar 2019 18:09:00 +0000]-SELECT * FROM `catalog_product_entity` LIMIT 0, 106186
+[Sun, 24 Mar 2019 18:09:00 +0000]Handling table `catalog_product_entity_datetime` [0].
+[Sun, 24 Mar 2019 18:09:00 +0000]Handling table `catalog_product_entity_decimal` [13 424].
+[Sun, 24 Mar 2019 18:09:00 +0000]-SELECT * FROM `catalog_product_entity_decimal` LIMIT 0, 70494
+[Sun, 24 Mar 2019 18:09:00 +0000]Handling table `catalog_product_entity_gallery` [0].
+[Sun, 24 Mar 2019 18:09:00 +0000]Handling table `catalog_product_entity_int` [113 155].
+[Sun, 24 Mar 2019 18:09:01 +0000]-SELECT * FROM `catalog_product_entity_int` LIMIT 0, 199730
+[Sun, 24 Mar 2019 18:09:01 +0000]Handling table `catalog_product_entity_media_gallery` [5 963].
+[Sun, 24 Mar 2019 18:09:01 +0000]-SELECT * FROM `catalog_product_entity_media_gallery` LIMIT 0, 92184
+[Sun, 24 Mar 2019 18:09:01 +0000]Handling table `catalog_product_entity_media_gallery_value` [5 886].
+[Sun, 24 Mar 2019 18:09:01 +0000]-SELECT * FROM `catalog_product_entity_media_gallery_value` LIMIT 0, 174764
+[Sun, 24 Mar 2019 18:09:01 +0000]Handling table `catalog_product_entity_media_gallery_value_to_entity` [6 026].
+[Sun, 24 Mar 2019 18:09:01 +0000]-SELECT * FROM `catalog_product_entity_media_gallery_value_to_entity` LIMIT 0, 254201
+[Sun, 24 Mar 2019 18:09:01 +0000]Handling table `catalog_product_entity_media_gallery_value_video` [0].
+[Sun, 24 Mar 2019 18:09:01 +0000]Handling table `catalog_product_entity_text` [3 677].
+[Sun, 24 Mar 2019 18:09:01 +0000]-SELECT * FROM `catalog_product_entity_text` LIMIT 0, 19374
+[Sun, 24 Mar 2019 18:09:01 +0000]Handling table `catalog_product_entity_tier_price` [0].
+[Sun, 24 Mar 2019 18:09:01 +0000]Handling table `catalog_product_entity_varchar` [62 964].
+[Sun, 24 Mar 2019 18:09:01 +0000]-SELECT * FROM `catalog_product_entity_varchar` LIMIT 0, 110377
+[Sun, 24 Mar 2019 18:09:02 +0000]Handling table `catalog_product_flat_1` [18 690].
+[Sun, 24 Mar 2019 18:09:02 +0000]-SELECT * FROM `catalog_product_flat_1` LIMIT 0, 27061
+[Sun, 24 Mar 2019 18:09:03 +0000]Handling table `catalog_product_flat_2` [20 285].
+[Sun, 24 Mar 2019 18:09:03 +0000]-SELECT * FROM `catalog_product_flat_2` LIMIT 0, 29332
+[Sun, 24 Mar 2019 18:09:04 +0000]Handling table `catalog_product_flat_3` [21 242].
+[Sun, 24 Mar 2019 18:09:04 +0000]-SELECT * FROM `catalog_product_flat_3` LIMIT 0, 30729
+[Sun, 24 Mar 2019 18:09:04 +0000]Handling table `catalog_product_flat_4` [19 966].
+[Sun, 24 Mar 2019 18:09:05 +0000]-SELECT * FROM `catalog_product_flat_4` LIMIT 0, 28927
+[Sun, 24 Mar 2019 18:09:05 +0000]Handling table `catalog_product_flat_5` [20 053].
+[Sun, 24 Mar 2019 18:09:05 +0000]-SELECT * FROM `catalog_product_flat_5` LIMIT 0, 29027
+[Sun, 24 Mar 2019 18:09:06 +0000]Handling table `catalog_product_flat_cl` [1].
+[Sun, 24 Mar 2019 18:09:06 +0000]-SELECT * FROM `catalog_product_flat_cl` LIMIT 0, 513
+[Sun, 24 Mar 2019 18:09:06 +0000]Handling table `catalog_product_frontend_action` [0].
+[Sun, 24 Mar 2019 18:09:06 +0000]Handling table `catalog_product_index_eav` [325 201].
+[Sun, 24 Mar 2019 18:09:06 +0000]-SELECT * FROM `catalog_product_index_eav` LIMIT 0, 104859
+[Sun, 24 Mar 2019 18:09:07 +0000]-SELECT * FROM catalog_product_index_eav LIMIT 104859, 104859
+[Sun, 24 Mar 2019 18:09:08 +0000]-SELECT * FROM catalog_product_index_eav LIMIT 209718, 104859
+[Sun, 24 Mar 2019 18:09:08 +0000]-SELECT * FROM catalog_product_index_eav LIMIT 314577, 104859
+[Sun, 24 Mar 2019 18:09:09 +0000]Handling table `catalog_product_index_eav_decimal` [0].
+[Sun, 24 Mar 2019 18:09:09 +0000]Handling table `catalog_product_index_eav_decimal_idx` [0].
+[Sun, 24 Mar 2019 18:09:09 +0000]Handling table `catalog_product_index_eav_decimal_replica` [0].
+[Sun, 24 Mar 2019 18:09:09 +0000]Handling table `catalog_product_index_eav_decimal_tmp` [0].
+[Sun, 24 Mar 2019 18:09:09 +0000]Handling table `catalog_product_index_eav_idx` [0].
+[Sun, 24 Mar 2019 18:09:09 +0000]Handling table `catalog_product_index_eav_replica` [361 806].
+[Sun, 24 Mar 2019 18:09:09 +0000]-SELECT * FROM `catalog_product_index_eav_replica` LIMIT 0, 116509
+[Sun, 24 Mar 2019 18:09:10 +0000]-SELECT * FROM catalog_product_index_eav_replica LIMIT 116509, 116509
+[Sun, 24 Mar 2019 18:09:10 +0000]-SELECT * FROM catalog_product_index_eav_replica LIMIT 233018, 116509
+[Sun, 24 Mar 2019 18:09:11 +0000]-SELECT * FROM catalog_product_index_eav_replica LIMIT 349527, 116509
+[Sun, 24 Mar 2019 18:09:11 +0000]Handling table `catalog_product_index_eav_tmp` [0].
+[Sun, 24 Mar 2019 18:09:11 +0000]Handling table `catalog_product_index_price` [28 407].
+[Sun, 24 Mar 2019 18:09:11 +0000]-SELECT * FROM `catalog_product_index_price` LIMIT 0, 50232
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_bundle_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_bundle_opt_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_bundle_opt_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_bundle_sel_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_bundle_sel_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_bundle_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_cfg_opt_agr_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_cfg_opt_agr_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_cfg_opt_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_cfg_opt_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_downlod_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_downlod_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_final_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_final_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_opt_agr_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_opt_agr_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_opt_idx` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_opt_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_replica` [27 261].
+[Sun, 24 Mar 2019 18:09:12 +0000]-SELECT * FROM `catalog_product_index_price_replica` LIMIT 0, 48211
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_price_tmp` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_tier_price` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_index_website` [1].
+[Sun, 24 Mar 2019 18:09:12 +0000]-SELECT * FROM `catalog_product_index_website` LIMIT 0, 513
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_link` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_link_attribute` [5].
+[Sun, 24 Mar 2019 18:09:12 +0000]-SELECT * FROM `catalog_product_link_attribute` LIMIT 0, 2561
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_link_attribute_decimal` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_link_attribute_int` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_link_attribute_varchar` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_link_type` [4].
+[Sun, 24 Mar 2019 18:09:12 +0000]-SELECT * FROM `catalog_product_link_type` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_option` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_option_price` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_option_title` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_option_type_price` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_option_type_title` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_option_type_value` [0].
+[Sun, 24 Mar 2019 18:09:12 +0000]Handling table `catalog_product_price_cl` [1 474 902].
+[Sun, 24 Mar 2019 18:09:13 +0000]-SELECT * FROM `catalog_product_price_cl` LIMIT 0, 289263
+[Sun, 24 Mar 2019 18:09:15 +0000]-SELECT * FROM catalog_product_price_cl LIMIT 289263, 289263
+[Sun, 24 Mar 2019 18:09:16 +0000]-SELECT * FROM catalog_product_price_cl LIMIT 578526, 289263
+[Sun, 24 Mar 2019 18:09:18 +0000]-SELECT * FROM catalog_product_price_cl LIMIT 867789, 289263
+[Sun, 24 Mar 2019 18:09:20 +0000]-SELECT * FROM catalog_product_price_cl LIMIT 1157052, 289263
+[Sun, 24 Mar 2019 18:09:22 +0000]-SELECT * FROM catalog_product_price_cl LIMIT 1446315, 289263
+[Sun, 24 Mar 2019 18:09:22 +0000]Handling table `catalog_product_relation` [17 674].
+[Sun, 24 Mar 2019 18:09:22 +0000]-SELECT * FROM `catalog_product_relation` LIMIT 0, 93208
+[Sun, 24 Mar 2019 18:09:22 +0000]Handling table `catalog_product_super_attribute` [2 326].
+[Sun, 24 Mar 2019 18:09:22 +0000]-SELECT * FROM `catalog_product_super_attribute` LIMIT 0, 167773
+[Sun, 24 Mar 2019 18:09:22 +0000]Handling table `catalog_product_super_attribute_label` [2 326].
+[Sun, 24 Mar 2019 18:09:22 +0000]-SELECT * FROM `catalog_product_super_attribute_label` LIMIT 0, 147170
+[Sun, 24 Mar 2019 18:09:22 +0000]Handling table `catalog_product_super_link` [17 478].
+[Sun, 24 Mar 2019 18:09:22 +0000]-SELECT * FROM `catalog_product_super_link` LIMIT 0, 92184
+[Sun, 24 Mar 2019 18:09:22 +0000]Handling table `catalog_product_website` [23 848].
+[Sun, 24 Mar 2019 18:09:23 +0000]-SELECT * FROM `catalog_product_website` LIMIT 0, 186415
+[Sun, 24 Mar 2019 18:09:23 +0000]Handling table `catalog_url_rewrite_product_category` [0].
+[Sun, 24 Mar 2019 18:09:23 +0000]Handling table `cataloginventory_stock` [0].
+[Sun, 24 Mar 2019 18:09:23 +0000]-SELECT * FROM `cataloginventory_stock` LIMIT 0, 8388609
+[Sun, 24 Mar 2019 18:09:23 +0000]Handling table `cataloginventory_stock_cl` [151 845].
+[Sun, 24 Mar 2019 18:09:23 +0000]-SELECT * FROM `cataloginventory_stock_cl` LIMIT 0, 262145
+[Sun, 24 Mar 2019 18:09:24 +0000]Handling table `cataloginventory_stock_item` [22 656].
+[Sun, 24 Mar 2019 18:09:24 +0000]-SELECT * FROM `cataloginventory_stock_item` LIMIT 0, 89242
+[Sun, 24 Mar 2019 18:09:24 +0000]Handling table `cataloginventory_stock_status` [19 100].
+[Sun, 24 Mar 2019 18:09:24 +0000]-SELECT * FROM `cataloginventory_stock_status` LIMIT 0, 99865
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `cataloginventory_stock_status_idx` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `cataloginventory_stock_status_replica` [19 526].
+[Sun, 24 Mar 2019 18:09:25 +0000]-SELECT * FROM `cataloginventory_stock_status_replica` LIMIT 0, 102301
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `cataloginventory_stock_status_tmp` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_customer_group` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_group_website` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_group_website_replica` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_product` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_product__temp348359f2` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_product__temp4851be5c` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_product__tempba3d52b7` [0].
+[Sun, 24 Mar 2019 18:09:25 +0000]Handling table `catalogrule_product_cl` [2 642 103].
+[Sun, 24 Mar 2019 18:09:26 +0000]-SELECT * FROM `catalogrule_product_cl` LIMIT 0, 289263
+[Sun, 24 Mar 2019 18:09:27 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 289263, 289263
+[Sun, 24 Mar 2019 18:09:29 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 578526, 289263
+[Sun, 24 Mar 2019 18:09:31 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 867789, 289263
+[Sun, 24 Mar 2019 18:09:33 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 1157052, 289263
+[Sun, 24 Mar 2019 18:09:35 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 1446315, 289263
+[Sun, 24 Mar 2019 18:09:37 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 1735578, 289263
+[Sun, 24 Mar 2019 18:09:39 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 2024841, 289263
+[Sun, 24 Mar 2019 18:09:41 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 2314104, 289263
+[Sun, 24 Mar 2019 18:09:43 +0000]-SELECT * FROM catalogrule_product_cl LIMIT 2603367, 289263
+[Sun, 24 Mar 2019 18:09:43 +0000]Handling table `catalogrule_product_price` [0].
+[Sun, 24 Mar 2019 18:09:43 +0000]Handling table `catalogrule_product_price_replica` [0].
+[Sun, 24 Mar 2019 18:09:43 +0000]Handling table `catalogrule_product_replica` [0].
+[Sun, 24 Mar 2019 18:09:43 +0000]Handling table `catalogrule_rule_cl` [0].
+[Sun, 24 Mar 2019 18:09:43 +0000]Handling table `catalogrule_website` [0].
+[Sun, 24 Mar 2019 18:09:43 +0000]Handling table `catalogsearch_fulltext_cl` [372 450].
+[Sun, 24 Mar 2019 18:09:44 +0000]-SELECT * FROM `catalogsearch_fulltext_cl` LIMIT 0, 279621
+[Sun, 24 Mar 2019 18:09:45 +0000]-SELECT * FROM catalogsearch_fulltext_cl LIMIT 279621, 279621
+[Sun, 24 Mar 2019 18:09:45 +0000]Handling table `catalogsearch_fulltext_scope1` [10 450].
+[Sun, 24 Mar 2019 18:09:45 +0000]-SELECT * FROM `catalogsearch_fulltext_scope1` LIMIT 0, 18478
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `catalogsearch_fulltext_scope2` [13 310].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `catalogsearch_fulltext_scope2` LIMIT 0, 23565
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `catalogsearch_fulltext_scope3` [13 640].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `catalogsearch_fulltext_scope3` LIMIT 0, 24106
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `catalogsearch_fulltext_scope4` [11 715].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `catalogsearch_fulltext_scope4` LIMIT 0, 20714
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `catalogsearch_fulltext_scope5` [11 440].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `catalogsearch_fulltext_scope5` LIMIT 0, 20263
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `cms_block` [15].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `cms_block` LIMIT 0, 7676
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `cms_block_store` [15].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `cms_block_store` LIMIT 0, 7676
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `cms_page` [2].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `cms_page` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `cms_page_store` [2].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `cms_page_store` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `core_config_data` [751].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `core_config_data` LIMIT 0, 64036
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_address_entity` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_address_entity_datetime` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_address_entity_decimal` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_address_entity_int` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_address_entity_text` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_address_entity_varchar` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_dummy_cl` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_eav_attribute` [44].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `customer_eav_attribute` LIMIT 0, 22491
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_eav_attribute_website` [30].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `customer_eav_attribute_website` LIMIT 0, 15337
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_entity` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_entity_datetime` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_entity_decimal` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_entity_int` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_entity_text` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_entity_varchar` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_form_attribute` [84].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `customer_form_attribute` LIMIT 0, 42800
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_grid_flat` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_group` [4].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `customer_group` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_log` [17].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `customer_log` LIMIT 0, 8703
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `customer_visitor` [30].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `customer_visitor` LIMIT 0, 15337
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `directory_country` [245].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `directory_country` LIMIT 0, 125204
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `directory_country_format` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `directory_country_region` [568].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `directory_country_region` LIMIT 0, 72317
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `directory_country_region_name` [568].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `directory_country_region_name` LIMIT 0, 72317
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `directory_currency_rate` [4].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `directory_currency_rate` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `downloadable_link` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `downloadable_link_price` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `downloadable_link_purchased` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `downloadable_link_purchased_item` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `downloadable_link_title` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `downloadable_sample` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `downloadable_sample_title` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_attribute` [138].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_attribute` LIMIT 0, 70494
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_attribute_group` [20].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_attribute_group` LIMIT 0, 10231
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_attribute_label` [4].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_attribute_label` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_attribute_option` [500].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_attribute_option` LIMIT 0, 254201
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_attribute_option_swatch` [2 040].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_attribute_option_swatch` LIMIT 0, 171197
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_attribute_option_value` [500].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_attribute_option_value` LIMIT 0, 84734
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_attribute_set` [8].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_attribute_set` LIMIT 0, 4095
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_attribute` [138].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_entity_attribute` LIMIT 0, 70494
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_datetime` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_decimal` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_int` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_store` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_entity_store` LIMIT 0, 8388609
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_text` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_type` [8].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_entity_type` LIMIT 0, 4095
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_entity_varchar` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_form_element` [42].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_form_element` LIMIT 0, 21455
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_form_fieldset` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_form_fieldset_label` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_form_type` [4].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_form_type` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `eav_form_type_entity` [6].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `eav_form_type_entity` LIMIT 0, 3073
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_abandoned_cart` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_automation` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_campaign` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_catalog` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_contact` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_contact_consent` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_failed_auth` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_importer` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_order` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_review` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_rules` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_template` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `email_wishlist` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `flag` [11].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `flag` LIMIT 0, 5631
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `gift_message` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `newsletter_problem` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `newsletter_queue` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `newsletter_queue_link` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `newsletter_queue_store_link` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `newsletter_subscriber` [2].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `newsletter_subscriber` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `newsletter_template` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `product_alert_price` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `product_alert_stock` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote` [75].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `quote` LIMIT 0, 38305
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote_address` [131].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `quote_address` LIMIT 0, 16745
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote_address_item` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote_id_mask` [58].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `quote_id_mask` LIMIT 0, 29643
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote_item` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote_item_option` [41].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote_payment` [5].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `quote_payment` LIMIT 0, 2561
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `quote_shipping_rate` [8].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `quote_shipping_rate` LIMIT 0, 4095
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `rating` [3].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `rating` LIMIT 0, 1537
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `rating_entity` [3].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `rating_entity` LIMIT 0, 1537
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `rating_option` [15].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `rating_option` LIMIT 0, 7676
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `rating_option_vote` [6].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `rating_option_vote_aggregated` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `rating_store` [18].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `rating_store` LIMIT 0, 9209
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `rating_title` [15].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `rating_title` LIMIT 0, 7676
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `report_event` [85].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `report_event` LIMIT 0, 43465
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `report_event_types` [6].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `report_event_types` LIMIT 0, 3073
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `review` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `review_detail` [3].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `review_entity` [3].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `review_entity` LIMIT 0, 1537
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `review_entity_summary` [0].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `review_status` [3].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `review_status` LIMIT 0, 1537
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `review_store` [14].
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `sales_bestsellers_aggregated_daily` [12].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `sales_bestsellers_aggregated_daily` LIMIT 0, 6142
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `sales_bestsellers_aggregated_monthly` [12].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `sales_bestsellers_aggregated_monthly` LIMIT 0, 6142
+[Sun, 24 Mar 2019 18:09:46 +0000]Handling table `sales_bestsellers_aggregated_yearly` [12].
+[Sun, 24 Mar 2019 18:09:46 +0000]-SELECT * FROM `sales_bestsellers_aggregated_yearly` LIMIT 0, 6142
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_creditmemo` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_creditmemo_comment` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_creditmemo_grid` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_creditmemo_item` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_invoice` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_invoice_comment` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_invoice_grid` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_invoice_item` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_invoiced_aggregated` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_invoiced_aggregated_order` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order` [5].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order` LIMIT 0, 2561
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_address` [10].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_address` LIMIT 0, 5119
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_aggregated_created` [4].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_aggregated_created` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_aggregated_updated` [4].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_aggregated_updated` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_grid` [5].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_grid` LIMIT 0, 2561
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_item` [5].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_item` LIMIT 0, 2561
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_payment` [5].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_payment` LIMIT 0, 2561
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_status` [12].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_status` LIMIT 0, 6142
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_status_history` [4].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_status_history` LIMIT 0, 2049
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_status_label` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_status_state` [10].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_order_status_state` LIMIT 0, 5119
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_tax` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_order_tax_item` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_payment_transaction` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_refunded_aggregated` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_refunded_aggregated_order` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_sequence_meta` [24].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_sequence_meta` LIMIT 0, 12283
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_sequence_profile` [24].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_sequence_profile` LIMIT 0, 12283
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_shipment` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_shipment_comment` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_shipment_grid` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_shipment_item` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_shipment_track` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_shipping_aggregated` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sales_shipping_aggregated_order` [6].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sales_shipping_aggregated_order` LIMIT 0, 3073
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_coupon` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_coupon_aggregated` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_coupon_aggregated_order` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_coupon_aggregated_updated` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_coupon_usage` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_customer` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_customer_group` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_label` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_product_attribute` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `salesrule_website` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_creditmemo_0` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_creditmemo_1` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_creditmemo_2` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_creditmemo_3` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_creditmemo_4` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_creditmemo_5` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_invoice_0` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_invoice_1` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_invoice_2` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_invoice_3` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_invoice_4` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_invoice_5` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_order_0` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_order_1` [7].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sequence_order_1` LIMIT 0, 3584
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_order_2` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_order_3` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_order_4` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_order_5` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `sequence_order_5` LIMIT 0, 8388609
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_shipment_0` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_shipment_1` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_shipment_2` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_shipment_3` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_shipment_4` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sequence_shipment_5` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `setup_module` [153].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `setup_module` LIMIT 0, 77673
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `sitemap` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `store` [6].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `store` LIMIT 0, 3073
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `store_group` [2].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `store_group` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `store_website` [2].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `store_website` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `tax_calculation` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `tax_calculation_rate` [2].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `tax_calculation_rate` LIMIT 0, 1025
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `tax_calculation_rate_title` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `tax_calculation_rule` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `tax_class` [8].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `tax_class` LIMIT 0, 4095
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `tax_order_aggregated_created` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `tax_order_aggregated_updated` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `translation` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `url_rewrite` [5].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `url_rewrite` LIMIT 0, 2561
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `variable` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `variable_value` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `weee_tax` [0].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `wishlist` [3].
+[Sun, 24 Mar 2019 18:09:47 +0000]-SELECT * FROM `wishlist` LIMIT 0, 1537
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `wishlist_item` [2].
+[Sun, 24 Mar 2019 18:09:47 +0000]Handling table `wishlist_item_option` [2].
